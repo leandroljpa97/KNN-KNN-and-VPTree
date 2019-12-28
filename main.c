@@ -15,16 +15,21 @@ COMMENTS
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <sys/time.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "utils.h"
+
 
 int main(int argc, char const *argv[]) {
 
-printf("ola\n");
+    int readSignal = readInputArguments(argc, argv);
+
+    printf("%d\n",readSignal);
+
+    printf("oola \n");
 
     
 
