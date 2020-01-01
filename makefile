@@ -1,7 +1,7 @@
 CC=gcc
-CFLAGS= -O2 -I. -Wall -std=gnu11
-DEPS = utils.h
-OBJ = utils.c main.c
+CFLAGS= -O2 -I. -Wall -lm -std=gnu11
+DEPS = utils.h classification.h
+OBJ = utils.c classification.c main.c
 
 default: main
 
