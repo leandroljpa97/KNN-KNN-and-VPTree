@@ -343,6 +343,7 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 
     for(int i = 0; i < dataSetNum.nrSamples/3; i++){
 	    int sampleClassified = rand()%(dataSetNum.nrSamples-1); 
+	    distances = computeDistances(sampleClassified, typeOfDataSet);
 	    computeNeighboors(sampleClassified, typeOfDataSet,idxSort,neighboors, distances,k);
 	    writeIt(f,k,sampleClassified,distances, neighboors,typeOfDataSet);
     } 

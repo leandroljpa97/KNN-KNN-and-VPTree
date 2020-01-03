@@ -1,12 +1,12 @@
-2-nearest Neighboors of the sample nr.: 0 
-1. Sample nr: 10, with distance: 4.690416 
+2-nearest Neighboors of the sample nr.: 1 
+1. Sample nr: 5, with distance: 0.656667 
 feature values: 
-   1.000000       1.000000       1.000000       1.000000       1.000000       1.000000       1.000000    
+   20       Family       High    
  
  
- 2. Sample nr: 13, with distance: 4.801042 
+ 2. Sample nr: 0, with distance: 0.646667 
 feature values: 
-   0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       0.200000    
+   23       Family       High    
  
  
  
