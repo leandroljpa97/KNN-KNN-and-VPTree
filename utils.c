@@ -18,6 +18,44 @@
 dataSetNum_t dataSetNum;
 dataSetCat_t dataSetCat;
 
+float euclideanDistance(int _i,int _sampleClassified){
+    double distance = 0;
+
+    for(int j = 0; j < dataSetNum.nrFeatures; j++){
+                distance  =distance + pow(dataSetNum.matrix[_sampleClassified][j] - dataSetNum.matrix[_i][j],2);
+            }
+
+            distance = sqrt(distance);
+
+            return (float)distance;
+
+
+}
+float gowerDistance(int i,int _sampleClassified){
+    float distance = 0;
+
+    int x1 = atoi(dataSetCat.matrix[i][0]);
+    int x2 = atoi(dataSetCat.matrix[_sampleClassified][0]);
+
+    distance =  (float)abs(x1 - x2);
+    printf("distance : %f \n", distance);
+    
+    distance = 1-(distance/100);
+    for(int j = 1; j < dataSetNum.nrFeatures; j++){
+        if(!strcmp(dataSetCat.matrix[i][j],dataSetCat.matrix[_sampleClassified][j]))
+            distance = distance + 1;
+    }
+        printf("distance after: %f\n",distance);
+    distance = distance/dataSetCat.nrFeatures;
+            printf("distance last: %f\n",distance);
+
+    return (float)distance;
+
+
+}
+
+
+
 /******************************************************************************
  * sizeString()
  *
@@ -96,7 +134,6 @@ void readDataSetCategoric(FILE * fpDataSet){
     char pal1[DIM_MAX];
     //read the first line of the file in order to know the number of features
      if (fgets(pal1, DIM_MAX, fpDataSet)){
-    	printf("a palavra é %s \n",pal1);
     	dataSetNum.nrFeatures = sizeString(pal1);
     	printf("nr of features is %d \n",dataSetNum.nrFeatures);
     }

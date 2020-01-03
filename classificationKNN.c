@@ -19,41 +19,7 @@
 
 int flagQuick = 0;
 
-float euclideanDistance(int _i,int _sampleClassified){
-	double distance = 0;
 
-	for(int j = 0; j < dataSetNum.nrFeatures; j++){
-				distance  =distance + pow(dataSetNum.matrix[_sampleClassified][j] - dataSetNum.matrix[_i][j],2);
-			}
-
-			distance = sqrt(distance);
-
-			return (float)distance;
-
-
-}
-float gowerDistance(int i,int _sampleClassified){
-	float distance = 0;
-
- 	int x1 = atoi(dataSetCat.matrix[i][0]);
- 	int x2 = atoi(dataSetCat.matrix[_sampleClassified][0]);
-
-	distance =  (float)abs(x1 - x2);
-	printf("distance : %f \n", distance);
-	
-	distance = 1-(distance/100);
-	for(int j = 1; j < dataSetNum.nrFeatures; j++){
-		if(!strcmp(dataSetCat.matrix[i][j],dataSetCat.matrix[_sampleClassified][j]))
-			distance = distance + 1;
-	}
-		printf("distance after: %f\n",distance);
-	distance = distance/dataSetCat.nrFeatures;
-			printf("distance last: %f\n",distance);
-
-	return (float)distance;
-
-
-}
 
 
 float * computeDistances(int _sampleClassified, int typeOfDataSet){
@@ -318,12 +284,7 @@ void computeNeighboors(int sampleClassified, int typeOfDataSet, int * idxSort,in
 
 		}
 
-			printf("caralhoo \n");
-		for(int i =0; i <dataSetCat.nrSamples; i++)
-			printf("%f\n",_distances[i]);
-
-		for(int i =0; i <k; i++)
-			printf("%d\n",neighboors[i]);
+		
 
 
 }
@@ -373,19 +334,10 @@ void KnnClassification(int typeOfDataSet,int classification,int sampleClassified
 
 	
 	if(classification == ONE_SAMPLE){
-		printf("txiiiga \n");
 		distances = computeDistances(sampleClassified, typeOfDataSet);
-		printf("xxxxxxxxxxx \n");
-		for(int i =0; i <dataSetNum.nrSamples; i++)
-			printf("%f\n",distances[i]);
-
+	
 		computeNeighboors(sampleClassified, typeOfDataSet,idxSort,neighboors, distances,k);
 
-			printf("putaaaaaaass \n");
-		for(int i =0; i <dataSetNum.nrSamples; i++)
-			printf("%f\n",distances[i]);
-		for(int i =0; i <k; i++)
-			printf("%d\n",neighboors[i]);
 		writeOneOnFile(k,sampleClassified,distances, neighboors, KNN, typeOfDataSet);		
 
 

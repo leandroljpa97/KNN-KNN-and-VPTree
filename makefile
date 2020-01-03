@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS= -O2 -I. -Wall -lm -std=gnu11
 DEPS = utils.h classification.h
-OBJ = utils.c classificationKNN.c main.c
+OBJ = utils.c classificationKNN.c VpTree.c main.c
 
 default: main
 
