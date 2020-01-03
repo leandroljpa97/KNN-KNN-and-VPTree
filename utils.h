@@ -5,6 +5,7 @@
 #include <stdint.h>
 
 #define DIM_MAX 6000
+#define MAX_SIZE 25
 
 //type of algorithm
 #define KNN 0
@@ -27,14 +28,27 @@ typedef struct _dataSetNum {
 	float ** matrix;
 } dataSetNum_t;
 
+
+typedef struct _dataSetCat {
+    int nrFeatures;		
+	int nrSamples;	 
+	char *** matrix;
+} dataSetCat_t;
+
+
+
+
 //variable that store the structure of the numeric dataSet
 extern dataSetNum_t dataSetNum;
+
+extern dataSetCat_t dataSetCat;
+
 
 
 
 
 int readInputArguments(int _argc, const char* argv[], char _fileName[], int * _algorithm, int * _normalization,int * _typeOfDataSet, int *_classification, int *_sampleClassified, int * _k);
 
-void readDataSet(char fileName[]);
+void readDataSet(char fileName[], int _normalization,int typeOfDataSet);
 
 #endif

@@ -16,7 +16,7 @@
 
 
 dataSetNum_t dataSetNum;
-
+dataSetCat_t dataSetCat;
 
 /******************************************************************************
  * sizeString()
@@ -49,6 +49,23 @@ int sizeString(const char *sentence)
     return count;
 }
 
+void readDataSetCategoric(FILE * fpDataSet){
+
+     //allocate memory to store the dataSet in the main memory, and fill the matrix
+    dataSetCat.matrix = (char***) malloc(dataSetCat.nrSamples*sizeof(char**));
+    for(int i = 0; i < dataSetCat.nrSamples; i++){
+        dataSetCat.matrix[i] = (char**)malloc(dataSetCat.nrFeatures*sizeof(char*));
+
+        for(int j = 0; j < dataSetCat.nrFeatures; j++){
+            dataSetCat.matrix[i][j] = (char*)malloc(MAX_SIZE*sizeof(char)); 
+        }
+        fscanf(fpDataSet,"%[^ ] %[^ ] %[^\n]\n", dataSetCat.matrix[i][0],dataSetCat.matrix[i][1],dataSetCat.matrix[i][2]);    
+
+
+    }   
+       
+
+}
 
 /******************************************************************************
  * readDataSet()
@@ -60,7 +77,7 @@ int sizeString(const char *sentence)
  *
  *****************************************************************************/
 
- void readDataSet(char fileName[]){
+ void readDataSet(char fileName[], int _normalization, int typeOfDataSet){
 
   	FILE * fpDataSet;
   	char pal[DIM_MAX];
@@ -95,19 +112,73 @@ int sizeString(const char *sentence)
 
 
     //put the pointer of the file to the beginning of the 2nd line (1st sample)
-    fseek(fpDataSet,strlen(pal1)-1, SEEK_SET);
+    fseek(fpDataSet,strlen(pal1), SEEK_SET);
 
-    //allocate memory to store the dataSet in the main memory, and fill the matrix
-    dataSetNum.matrix = (float**) malloc(dataSetNum.nrSamples*sizeof(float*));
-    for(int i = 0; i < dataSetNum.nrSamples; i++){
-    	dataSetNum.matrix[i] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
-
-    	for(int j = 0; j < dataSetNum.nrFeatures; j++){
-    		if (!fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][j])) 
-           break;
-    	}
+    if(typeOfDataSet == CATEGORIC){
+        dataSetCat.nrFeatures = dataSetNum.nrFeatures;
+        dataSetCat.nrSamples = dataSetNum.nrSamples;
+        printf("CATEGORIC \n");
+        readDataSetCategoric(fpDataSet);
+        fclose(fpDataSet);
+        return;
     }
 
+    if(!_normalization){
+        //allocate memory to store the dataSet in the main memory, and fill the matrix
+        dataSetNum.matrix = (float**) malloc(dataSetNum.nrSamples*sizeof(float*));
+        for(int i = 0; i < dataSetNum.nrSamples; i++){
+        	dataSetNum.matrix[i] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+
+        	for(int j = 0; j < dataSetNum.nrFeatures; j++){
+        		if (!fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][j])) 
+               break;
+        	}
+        }
+    }
+    else{
+       
+
+        float ** aux = (float**)malloc(dataSetNum.nrFeatures*sizeof(float*));
+        for(int i= 0; i < dataSetNum.nrFeatures; i++)
+            aux[i] = (float*)malloc(2*sizeof(float));
+
+        //allocate memory to store the dataSet in the main memory, and fill the matrix
+        dataSetNum.matrix = (float**) malloc(dataSetNum.nrSamples*sizeof(float*));
+        dataSetNum.matrix[0] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+        for(int j = 0; j < dataSetNum.nrFeatures; j++){
+                fscanf(fpDataSet, "%f", &dataSetNum.matrix[0][j]);
+                aux[j][0] = dataSetNum.matrix[0][j];
+                aux[j][1] = dataSetNum.matrix[0][j];
+            }
+
+        for(int i = 1; i < dataSetNum.nrSamples; i++){
+            dataSetNum.matrix[i] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+
+            for(int j = 0; j < dataSetNum.nrFeatures; j++){
+                fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][j]);
+                if(dataSetNum.matrix[i][j] > aux[j][0])
+                    aux[j][0] = dataSetNum.matrix[i][j];
+
+                if(dataSetNum.matrix[i][j] < aux[j][1])
+                    aux[j][1] = dataSetNum.matrix[i][j];
+               
+            }
+        }
+
+        printf("NORMALIZAAAAATIOOOOOON \n");
+
+        for(int i = 0; i < dataSetNum.nrSamples; i++){
+            for( int j = 0; j < dataSetNum.nrFeatures; j++){
+                dataSetNum.matrix[i][j] = (dataSetNum.matrix[i][j] - aux[j][1])/(aux[j][0]-aux[j][1]);
+
+                printf("  %f  ",dataSetNum.matrix[i][j]);
+            }
+            printf("\n");
+        }
+
+
+
+    }
 
 
     //close the file
@@ -115,7 +186,7 @@ int sizeString(const char *sentence)
 
   }
 
-  
+
 
 
   /******************************************************************************

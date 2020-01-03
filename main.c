@@ -61,10 +61,15 @@ int main(int argc, char const *argv[]) {
 
     if(algorithm == KNN){
         printf("KNN \n");
-    	readDataSet(fileName);
+    	readDataSet(fileName,normalization,typeOfDataSet);
     	KnnClassification(typeOfDataSet,classification,sampleClassified,normalization,k);
     	
     }
+
+     
+
+
+
     	
 
 	return 0;
