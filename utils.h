@@ -5,11 +5,13 @@
 #include <stdint.h>
 
 #define DIM_MAX 6000
-#define MAX_SIZE 25
+#define MAX_SIZE 50
+#define MAX_KNN 1000
 
 //type of algorithm
+#define KNN_PLUS 1
 #define KNN 0
-#define VPTree 1
+
 
 //type of dataSet
 #define NUMERICAL 0
@@ -18,7 +20,8 @@
 //type of sample to be classified
 #define ONE_SAMPLE 0
 #define RANDOM 1
-#define ADDITIONAL 2
+#define LEAVE_ONE_OUT 2
+#define ADDITIONAL 3
 
 
 
@@ -26,6 +29,7 @@ typedef struct _dataSetNum {
     int nrFeatures;		
 	int nrSamples;	 
 	float ** matrix;
+
 } dataSetNum_t;
 
 
@@ -43,10 +47,14 @@ extern dataSetNum_t dataSetNum;
 
 extern dataSetCat_t dataSetCat;
 
+extern int initialK;
 
-float euclideanDistance(int _i,int _sampleClassified);
+extern int positiveClassified;
+extern int negativeClassified;
+extern 	char testingSet[100];
+extern unsigned long diffTime;
 
-float gowerDistance(int i,int _sampleClassified);
+
 
 int readInputArguments(int _argc, const char* argv[], char _fileName[], int * _algorithm, int * _normalization,int * _typeOfDataSet, int *_classification, int *_sampleClassified, int * _k);
 

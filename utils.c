@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <netdb.h>
 #include <string.h>
 #include <errno.h>
-#include <sys/un.h>
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <netinet/in.h>
-#include <netdb.h>
 #include <ctype.h>
 
 #include "utils.h"
@@ -17,42 +13,14 @@
 
 dataSetNum_t dataSetNum;
 dataSetCat_t dataSetCat;
+int initialK;
+int positiveClassified = 0;
+int negativeClassified = 0;
 
-float euclideanDistance(int _i,int _sampleClassified){
-    double distance = 0;
+unsigned long diffTime;
 
-    for(int j = 0; j < dataSetNum.nrFeatures; j++){
-                distance  =distance + pow(dataSetNum.matrix[_sampleClassified][j] - dataSetNum.matrix[_i][j],2);
-            }
+char testingSet[100];
 
-            distance = sqrt(distance);
-
-            return (float)distance;
-
-
-}
-float gowerDistance(int i,int _sampleClassified){
-    float distance = 0;
-
-    int x1 = atoi(dataSetCat.matrix[i][0]);
-    int x2 = atoi(dataSetCat.matrix[_sampleClassified][0]);
-
-    distance =  (float)abs(x1 - x2);
-    printf("distance : %f \n", distance);
-    
-    distance = 1-(distance/100);
-    for(int j = 1; j < dataSetNum.nrFeatures; j++){
-        if(!strcmp(dataSetCat.matrix[i][j],dataSetCat.matrix[_sampleClassified][j]))
-            distance = distance + 1;
-    }
-        printf("distance after: %f\n",distance);
-    distance = distance/dataSetCat.nrFeatures;
-            printf("distance last: %f\n",distance);
-
-    return (float)distance;
-
-
-}
 
 
 
@@ -92,12 +60,12 @@ void readDataSetCategoric(FILE * fpDataSet){
      //allocate memory to store the dataSet in the main memory, and fill the matrix
     dataSetCat.matrix = (char***) malloc(dataSetCat.nrSamples*sizeof(char**));
     for(int i = 0; i < dataSetCat.nrSamples; i++){
-        dataSetCat.matrix[i] = (char**)malloc(dataSetCat.nrFeatures*sizeof(char*));
+        dataSetCat.matrix[i] = (char**)malloc((dataSetCat.nrFeatures+1)*sizeof(char*));
 
-        for(int j = 0; j < dataSetCat.nrFeatures; j++){
+        for(int j = 0; j <= dataSetCat.nrFeatures; j++){
             dataSetCat.matrix[i][j] = (char*)malloc(MAX_SIZE*sizeof(char)); 
         }
-        fscanf(fpDataSet,"%[^ ] %[^ ] %[^\n]\n", dataSetCat.matrix[i][0],dataSetCat.matrix[i][1],dataSetCat.matrix[i][2]);    
+        fscanf(fpDataSet,"%[^ ] %[^ ] %[^ ] %[^ ] %[^ ] %[^ ] %[^\n]\n", dataSetCat.matrix[i][0],dataSetCat.matrix[i][1],dataSetCat.matrix[i][2],dataSetCat.matrix[i][3],dataSetCat.matrix[i][4],dataSetCat.matrix[i][5],dataSetCat.matrix[i][6]);    
 
 
     }   
@@ -135,7 +103,8 @@ void readDataSetCategoric(FILE * fpDataSet){
     //read the first line of the file in order to know the number of features
      if (fgets(pal1, DIM_MAX, fpDataSet)){
     	dataSetNum.nrFeatures = sizeString(pal1);
-    	printf("nr of features is %d \n",dataSetNum.nrFeatures);
+    	//last one is the class classification!
+    	dataSetNum.nrFeatures--;
     }
 
     //read the file in order to know the number of samples
@@ -143,7 +112,6 @@ void readDataSetCategoric(FILE * fpDataSet){
         if (fgets(pal, DIM_MAX, fpDataSet))
         	dataSetNum.nrSamples++;
     }
-    printf("nr of samples is %d \n",dataSetNum.nrSamples);
 
 
 
@@ -154,7 +122,6 @@ void readDataSetCategoric(FILE * fpDataSet){
     if(typeOfDataSet == CATEGORIC){
         dataSetCat.nrFeatures = dataSetNum.nrFeatures;
         dataSetCat.nrSamples = dataSetNum.nrSamples;
-        printf("CATEGORIC \n");
         readDataSetCategoric(fpDataSet);
         fclose(fpDataSet);
         return;
@@ -162,11 +129,11 @@ void readDataSetCategoric(FILE * fpDataSet){
 
     if(!_normalization){
         //allocate memory to store the dataSet in the main memory, and fill the matrix
-        dataSetNum.matrix = (float**) malloc(dataSetNum.nrSamples*sizeof(float*));
+        dataSetNum.matrix = (float**) malloc((dataSetNum.nrSamples)*sizeof(float*));
         for(int i = 0; i < dataSetNum.nrSamples; i++){
-        	dataSetNum.matrix[i] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+        	dataSetNum.matrix[i] = (float*)malloc((dataSetNum.nrFeatures+1)*sizeof(float));
 
-        	for(int j = 0; j < dataSetNum.nrFeatures; j++){
+        	for(int j = 0; j <= dataSetNum.nrFeatures; j++){
         		if (!fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][j])) 
                break;
         	}
@@ -175,21 +142,23 @@ void readDataSetCategoric(FILE * fpDataSet){
     else{
        
 
-        float ** aux = (float**)malloc(dataSetNum.nrFeatures*sizeof(float*));
-        for(int i= 0; i < dataSetNum.nrFeatures; i++)
+        float ** aux = (float**)malloc((dataSetNum.nrFeatures)*sizeof(float*));
+        for(int i= 0; i <= dataSetNum.nrFeatures; i++)
             aux[i] = (float*)malloc(2*sizeof(float));
 
         //allocate memory to store the dataSet in the main memory, and fill the matrix
         dataSetNum.matrix = (float**) malloc(dataSetNum.nrSamples*sizeof(float*));
-        dataSetNum.matrix[0] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+        dataSetNum.matrix[0] = (float*)malloc((dataSetNum.nrFeatures+1)*sizeof(float));
         for(int j = 0; j < dataSetNum.nrFeatures; j++){
                 fscanf(fpDataSet, "%f", &dataSetNum.matrix[0][j]);
                 aux[j][0] = dataSetNum.matrix[0][j];
                 aux[j][1] = dataSetNum.matrix[0][j];
             }
+          //class classifier
+         fscanf(fpDataSet, "%f", &dataSetNum.matrix[0][dataSetNum.nrFeatures]);
 
         for(int i = 1; i < dataSetNum.nrSamples; i++){
-            dataSetNum.matrix[i] = (float*)malloc(dataSetNum.nrFeatures*sizeof(float));
+            dataSetNum.matrix[i] = (float*)malloc((dataSetNum.nrFeatures+1)*sizeof(float));
 
             for(int j = 0; j < dataSetNum.nrFeatures; j++){
                 fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][j]);
@@ -200,17 +169,15 @@ void readDataSetCategoric(FILE * fpDataSet){
                     aux[j][1] = dataSetNum.matrix[i][j];
                
             }
+            fscanf(fpDataSet, "%f", &dataSetNum.matrix[i][dataSetNum.nrFeatures]);
         }
 
-        printf("NORMALIZAAAAATIOOOOOON \n");
 
         for(int i = 0; i < dataSetNum.nrSamples; i++){
             for( int j = 0; j < dataSetNum.nrFeatures; j++){
                 dataSetNum.matrix[i][j] = (dataSetNum.matrix[i][j] - aux[j][1])/(aux[j][0]-aux[j][1]);
 
-                printf("  %f  ",dataSetNum.matrix[i][j]);
             }
-            printf("\n");
         }
 
 
@@ -263,7 +230,6 @@ void readDataSetCategoric(FILE * fpDataSet){
 
         else if(strcmp(argv[i], "-f") == 0) {
             i++;
-            printf("%s \n",argv[i]);
             if(sscanf(argv[i], "%s",_fileName) != 1) {
             printf("Error decoding filename\n");
                 exit(1);
@@ -272,7 +238,6 @@ void readDataSetCategoric(FILE * fpDataSet){
         }
         else if(strcmp(argv[i], "-a") == 0) {
             i++;
-            printf("ola \n");
             if(sscanf(argv[i], "%d", &auxAlg) != 1) {
                 printf("Error decoding algorithm to be used \n");
                 exit(1);
@@ -280,7 +245,7 @@ void readDataSetCategoric(FILE * fpDataSet){
             if(auxAlg == 0)
             	*_algorithm = KNN;
             else if(auxAlg == 1)
-            	*_algorithm = VPTree;
+            	*_algorithm = KNN_PLUS;
             else
             	auxAlg = -1;
 
@@ -314,8 +279,11 @@ void readDataSetCategoric(FILE * fpDataSet){
             	*_classification = ONE_SAMPLE;
             else if(auxClassif == 1)
             	*_classification = RANDOM;
-            else if(auxClassif == 2)
-            	*_classification = ADDITIONAL;
+    
+            else if(auxClassif ==2)
+                *_classification = LEAVE_ONE_OUT;
+            else if(auxClassif ==3)
+                *_classification = ADDITIONAL;
 
             if(*_classification == ONE_SAMPLE){
             	i++;
@@ -330,6 +298,20 @@ void readDataSetCategoric(FILE * fpDataSet){
                     exit(1);
                 }
             }
+            if(*_classification == ADDITIONAL){
+                i++;
+                if(i < _argc){
+                    if(sscanf(argv[i], "%s", testingSet) != 1) {
+                        printf("Error decoding testing set \n");
+                        exit(1);
+                    }
+                }
+                else {
+                    printf("you have to choose the file with testing set samples!! \n");
+                    exit(1);
+                }
+            }
+
 
 
 

@@ -1,7 +1,18 @@
-Age Car_type Risk
-23 Family High
-17 Sport High
-43 Sport Low
-68 Family Low
-32 Truck Low
-20 Family High
+buying maint doors persons lug_boot safety class
+vhigh vhigh 2 2 small low unacc
+vhigh vhigh 2 2 small med unacc
+vhigh vhigh 2 2 small high unacc
+vhigh vhigh 2 2 med low unacc
+vhigh vhigh 2 2 small med unacc
+vhigh vhigh 2 2 med med unacc
+vhigh vhigh 2 2 med high unacc
+high low 4  5 small high acc
+high low 4  5 med low unacc
+high low 4  5 med med acc
+high low 4  5 med high acc
+high low 4  5 big med acc
+high low 4  5 big high acc
+med low 2  5 med high good
+med low 2  5 big low unacc
+med low 2  5 big med good
+med low 2  5 big high vgood

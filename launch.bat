@@ -1,0 +1,1 @@
+start "KNN" ./main.exe  -a 1 -f DataSets/iris.txt -t 0  -c 2  -k 31
