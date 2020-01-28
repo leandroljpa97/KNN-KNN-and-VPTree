@@ -1,0 +1,26 @@
+2-nearest Neighboors of the sample number: 0, with feature values:    0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000       
+ 
+    1. Sample nr: 6, with distance: 0.100000 
+feature values: 
+   0.000000       0.000000       0.100000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  2. Sample nr: 11, with distance: 0.100000 
+feature values: 
+   0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  3. Sample nr: 12, with distance: 0.100000 
+feature values: 
+   0.000000       0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       2.000000    
+ 
+  4. Sample nr: 13, with distance: 0.100000 
+feature values: 
+   0.000000       0.000000       0.100000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  5. Sample nr: 14, with distance: 0.100000 
+feature values: 
+   0.000000       0.000000       0.000000       0.100000       0.000000       0.000000       0.000000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+

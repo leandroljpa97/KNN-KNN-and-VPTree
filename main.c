@@ -16,6 +16,7 @@ COMMENTS
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <sys/time.h>
 
 
 #include "utils.h"
@@ -65,26 +66,26 @@ int main(int argc, char const *argv[]) {
     printf("classification is: %d \n", classification);
     printf("name of the file is %s \n",fileName);
 
-    
+
     readDataSet(fileName,normalization,typeOfDataSet);
 
-   
+
     positiveClassified = 0;
     negativeClassified = 0;
 
     diffTime = 0;
- 
+
     struct timeval stop, start;
     gettimeofday(&start, NULL);
 
     KnnClassification(typeOfDataSet,classification,sampleClassified,normalization,&k,algorithm);
-    
+
     gettimeofday(&stop, NULL);
     printf("overall time took %lu us\n", (stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec);
     printf(" time without write on file took %lu us\n", (stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec - diffTime);
 
 
-  
+
     float accuracy ;
 
     printf("number of positiveClassified = %d \n",positiveClassified );
@@ -94,7 +95,7 @@ int main(int argc, char const *argv[]) {
     accuracy = positiveClassified/((float)positiveClassified+negativeClassified);
 
     printf("the accuracy is %f \n",accuracy);
-    	
+
 
 	return 0;
 }

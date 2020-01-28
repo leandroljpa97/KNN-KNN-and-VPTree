@@ -1,0 +1,22 @@
+2-nearest Neighboors of the sample number: 0, with feature values:    
+vhigh       vhigh       2       2       small       low       unacc       
+ 
+    1. Sample nr: 1, with distance: 0.333333 
+feature values: 
+   vhigh       vhigh       2       2       small       med       unacc    
+ 
+  2. Sample nr: 2, with distance: 0.333333 
+feature values: 
+   vhigh       vhigh       2       2       small       high       unacc    
+ 
+  3. Sample nr: 3, with distance: 0.333333 
+feature values: 
+   vhigh       vhigh       2       2       med       low       unacc    
+ 
+  4. Sample nr: 4, with distance: 0.333333 
+feature values: 
+   vhigh       vhigh       2       2       small       med       unacc    
+ 
+  THe sample if classified as class =  unacc
+ 
+

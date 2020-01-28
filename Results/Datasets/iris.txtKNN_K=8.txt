@@ -1,0 +1,1900 @@
+8-nearest Neighboors of the sample number: 71, with feature values:    0.772152       0.636364       0.579710       0.520000       1.000000       
+ 
+    1. Sample nr: 97, with distance: 0.050667 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  2. Sample nr: 99, with distance: 0.052666 
+feature values: 
+   0.721519       0.636364       0.594203       0.520000       1.000000    
+ 
+  3. Sample nr: 82, with distance: 0.061389 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  4. Sample nr: 74, with distance: 0.062040 
+feature values: 
+   0.810127       0.659091       0.623188       0.520000       1.000000    
+ 
+  5. Sample nr: 96, with distance: 0.062613 
+feature values: 
+   0.721519       0.659091       0.608696       0.520000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.071472 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 94, with distance: 0.073229 
+feature values: 
+   0.708861       0.613636       0.608696       0.520000       1.000000    
+ 
+  8. Sample nr: 88, with distance: 0.079259 
+feature values: 
+   0.708861       0.681818       0.594203       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 56, with feature values:    0.797468       0.750000       0.681159       0.640000       1.000000       
+ 
+    1. Sample nr: 85, with distance: 0.052903 
+feature values: 
+   0.759494       0.772727       0.652174       0.640000       1.000000    
+ 
+  2. Sample nr: 51, with distance: 0.055829 
+feature values: 
+   0.810127       0.727273       0.652174       0.600000       1.000000    
+ 
+  3. Sample nr: 86, with distance: 0.078929 
+feature values: 
+   0.848101       0.704545       0.681159       0.600000       1.000000    
+ 
+  4. Sample nr: 70, with distance: 0.098439 
+feature values: 
+   0.746835       0.727273       0.695652       0.720000       1.000000    
+ 
+  5. Sample nr: 52, with distance: 0.101364 
+feature values: 
+   0.873418       0.704545       0.710145       0.600000       1.000000    
+ 
+  6. Sample nr: 77, with distance: 0.103454 
+feature values: 
+   0.848101       0.681818       0.724638       0.680000       1.000000    
+ 
+  7. Sample nr: 91, with distance: 0.109086 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  8. Sample nr: 78, with distance: 0.110212 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 106, with feature values:    0.620253       0.568182       0.652174       0.680000       2.000000       
+ 
+    1. Sample nr: 84, with distance: 0.152706 
+feature values: 
+   0.683544       0.681818       0.652174       0.600000       1.000000    
+ 
+  2. Sample nr: 59, with distance: 0.159592 
+feature values: 
+   0.658228       0.613636       0.565217       0.560000       1.000000    
+ 
+  3. Sample nr: 66, with distance: 0.164817 
+feature values: 
+   0.708861       0.681818       0.652174       0.600000       1.000000    
+ 
+  4. Sample nr: 142, with distance: 0.170312 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  5. Sample nr: 101, with distance: 0.170312 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  6. Sample nr: 113, with distance: 0.172933 
+feature values: 
+   0.721519       0.568182       0.724638       0.800000       2.000000    
+ 
+  7. Sample nr: 121, with distance: 0.173956 
+feature values: 
+   0.708861       0.636364       0.710145       0.800000       2.000000    
+ 
+  8. Sample nr: 83, with distance: 0.174973 
+feature values: 
+   0.759494       0.613636       0.739130       0.640000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 70, with feature values:    0.746835       0.727273       0.695652       0.720000       1.000000       
+ 
+    1. Sample nr: 138, with distance: 0.047184 
+feature values: 
+   0.759494       0.681818       0.695652       0.720000       2.000000    
+ 
+  2. Sample nr: 127, with distance: 0.054010 
+feature values: 
+   0.772152       0.681818       0.710145       0.720000       2.000000    
+ 
+  3. Sample nr: 149, with distance: 0.062901 
+feature values: 
+   0.746835       0.681818       0.739130       0.720000       2.000000    
+ 
+  4. Sample nr: 56, with distance: 0.098439 
+feature values: 
+   0.797468       0.750000       0.681159       0.640000       1.000000    
+ 
+  5. Sample nr: 126, with distance: 0.098522 
+feature values: 
+   0.784810       0.636364       0.695652       0.720000       2.000000    
+ 
+  6. Sample nr: 85, with distance: 0.102551 
+feature values: 
+   0.759494       0.772727       0.652174       0.640000       1.000000    
+ 
+  7. Sample nr: 110, with distance: 0.118569 
+feature values: 
+   0.822785       0.727273       0.739130       0.800000       2.000000    
+ 
+  8. Sample nr: 77, with distance: 0.121495 
+feature values: 
+   0.848101       0.681818       0.724638       0.680000       1.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 128, with feature values:    0.810127       0.636364       0.811594       0.840000       2.000000       
+ 
+    1. Sample nr: 132, with distance: 0.040000 
+feature values: 
+   0.810127       0.636364       0.811594       0.880000       2.000000    
+ 
+  2. Sample nr: 104, with distance: 0.068312 
+feature values: 
+   0.822785       0.681818       0.840580       0.880000       2.000000    
+ 
+  3. Sample nr: 112, with distance: 0.069569 
+feature values: 
+   0.860759       0.681818       0.797101       0.840000       2.000000    
+ 
+  4. Sample nr: 147, with distance: 0.084776 
+feature values: 
+   0.822785       0.681818       0.753623       0.800000       2.000000    
+ 
+  5. Sample nr: 111, with distance: 0.093845 
+feature values: 
+   0.810127       0.613636       0.768116       0.760000       2.000000    
+ 
+  6. Sample nr: 139, with distance: 0.097441 
+feature values: 
+   0.873418       0.704545       0.782609       0.840000       2.000000    
+ 
+  7. Sample nr: 102, with distance: 0.108664 
+feature values: 
+   0.898734       0.681818       0.855072       0.840000       2.000000    
+ 
+  8. Sample nr: 145, with distance: 0.115190 
+feature values: 
+   0.848101       0.681818       0.753623       0.920000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 79, with feature values:    0.721519       0.590909       0.507246       0.400000       1.000000       
+ 
+    1. Sample nr: 81, with distance: 0.059558 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  2. Sample nr: 69, with distance: 0.075083 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  3. Sample nr: 80, with distance: 0.078724 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  4. Sample nr: 67, with distance: 0.090765 
+feature values: 
+   0.734177       0.613636       0.594203       0.400000       1.000000    
+ 
+  5. Sample nr: 82, with distance: 0.102164 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.108679 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 98, with distance: 0.114612 
+feature values: 
+   0.645570       0.568182       0.434783       0.440000       1.000000    
+ 
+  8. Sample nr: 57, with distance: 0.114722 
+feature values: 
+   0.620253       0.545455       0.478261       0.400000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 19, with feature values:    0.645570       0.863636       0.217391       0.120000       0.000000       
+ 
+    1. Sample nr: 46, with distance: 0.042545 
+feature values: 
+   0.645570       0.863636       0.231884       0.080000       0.000000    
+ 
+  2. Sample nr: 21, with distance: 0.046006 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  3. Sample nr: 48, with distance: 0.052511 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 10, with distance: 0.059654 
+feature values: 
+   0.683544       0.840909       0.217391       0.080000       0.000000    
+ 
+  5. Sample nr: 4, with distance: 0.063533 
+feature values: 
+   0.632911       0.818182       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 5, with distance: 0.066323 
+feature values: 
+   0.683544       0.886364       0.246377       0.160000       0.000000    
+ 
+  7. Sample nr: 16, with distance: 0.066323 
+feature values: 
+   0.683544       0.886364       0.188406       0.160000       0.000000    
+ 
+  8. Sample nr: 17, with distance: 0.069705 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 68, with feature values:    0.784810       0.500000       0.652174       0.600000       1.000000       
+ 
+    1. Sample nr: 119, with distance: 0.076759 
+feature values: 
+   0.759494       0.500000       0.724638       0.600000       2.000000    
+ 
+  2. Sample nr: 87, with distance: 0.085363 
+feature values: 
+   0.797468       0.522727       0.637681       0.520000       1.000000    
+ 
+  3. Sample nr: 72, with distance: 0.090386 
+feature values: 
+   0.797468       0.568182       0.710145       0.600000       1.000000    
+ 
+  4. Sample nr: 53, with distance: 0.141488 
+feature values: 
+   0.696203       0.522727       0.579710       0.520000       1.000000    
+ 
+  5. Sample nr: 54, with distance: 0.142292 
+feature values: 
+   0.822785       0.636364       0.666667       0.600000       1.000000    
+ 
+  6. Sample nr: 83, with distance: 0.150717 
+feature values: 
+   0.759494       0.613636       0.739130       0.640000       1.000000    
+ 
+  7. Sample nr: 89, with distance: 0.155406 
+feature values: 
+   0.696203       0.568182       0.579710       0.520000       1.000000    
+ 
+  8. Sample nr: 78, with distance: 0.161093 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 74, with feature values:    0.810127       0.659091       0.623188       0.520000       1.000000       
+ 
+    1. Sample nr: 97, with distance: 0.025317 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  2. Sample nr: 58, with distance: 0.050312 
+feature values: 
+   0.835443       0.659091       0.666667       0.520000       1.000000    
+ 
+  3. Sample nr: 75, with distance: 0.054475 
+feature values: 
+   0.835443       0.681818       0.637681       0.560000       1.000000    
+ 
+  4. Sample nr: 71, with distance: 0.062040 
+feature values: 
+   0.772152       0.636364       0.579710       0.520000       1.000000    
+ 
+  5. Sample nr: 65, with distance: 0.072926 
+feature values: 
+   0.848101       0.704545       0.637681       0.560000       1.000000    
+ 
+  6. Sample nr: 91, with distance: 0.073817 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  7. Sample nr: 63, with distance: 0.080017 
+feature values: 
+   0.772152       0.659091       0.681159       0.560000       1.000000    
+ 
+  8. Sample nr: 73, with distance: 0.083182 
+feature values: 
+   0.772152       0.636364       0.681159       0.480000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 110, with feature values:    0.822785       0.727273       0.739130       0.800000       2.000000       
+ 
+    1. Sample nr: 147, with distance: 0.047709 
+feature values: 
+   0.822785       0.681818       0.753623       0.800000       2.000000    
+ 
+  2. Sample nr: 139, with distance: 0.081059 
+feature values: 
+   0.873418       0.704545       0.782609       0.840000       2.000000    
+ 
+  3. Sample nr: 112, with distance: 0.092026 
+feature values: 
+   0.860759       0.681818       0.797101       0.840000       2.000000    
+ 
+  4. Sample nr: 124, with distance: 0.101582 
+feature values: 
+   0.848101       0.750000       0.826087       0.840000       2.000000    
+ 
+  5. Sample nr: 137, with distance: 0.102164 
+feature values: 
+   0.810127       0.704545       0.797101       0.720000       2.000000    
+ 
+  6. Sample nr: 116, with distance: 0.108751 
+feature values: 
+   0.822785       0.681818       0.797101       0.720000       2.000000    
+ 
+  7. Sample nr: 127, with distance: 0.108949 
+feature values: 
+   0.772152       0.681818       0.710145       0.720000       2.000000    
+ 
+  8. Sample nr: 70, with distance: 0.118569 
+feature values: 
+   0.746835       0.727273       0.695652       0.720000       1.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 39, with feature values:    0.645570       0.772727       0.217391       0.080000       0.000000       
+ 
+    1. Sample nr: 7, with distance: 0.012658 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  2. Sample nr: 28, with distance: 0.019242 
+feature values: 
+   0.658228       0.772727       0.202899       0.080000       0.000000    
+ 
+  3. Sample nr: 27, with distance: 0.026015 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 0, with distance: 0.026955 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  5. Sample nr: 49, with distance: 0.029779 
+feature values: 
+   0.632911       0.750000       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 11, with distance: 0.040646 
+feature values: 
+   0.607595       0.772727       0.231884       0.080000       0.000000    
+ 
+  7. Sample nr: 20, with distance: 0.047773 
+feature values: 
+   0.683544       0.772727       0.246377       0.080000       0.000000    
+ 
+  8. Sample nr: 17, with distance: 0.048235 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 73, with feature values:    0.772152       0.636364       0.681159       0.480000       1.000000       
+ 
+    1. Sample nr: 55, with distance: 0.070738 
+feature values: 
+   0.721519       0.636364       0.652174       0.520000       1.000000    
+ 
+  2. Sample nr: 97, with distance: 0.075083 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  3. Sample nr: 58, with distance: 0.079576 
+feature values: 
+   0.835443       0.659091       0.666667       0.520000       1.000000    
+ 
+  4. Sample nr: 63, with distance: 0.083166 
+feature values: 
+   0.772152       0.659091       0.681159       0.560000       1.000000    
+ 
+  5. Sample nr: 74, with distance: 0.083182 
+feature values: 
+   0.810127       0.659091       0.623188       0.520000       1.000000    
+ 
+  6. Sample nr: 91, with distance: 0.093146 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  7. Sample nr: 90, with distance: 0.098614 
+feature values: 
+   0.696203       0.590909       0.637681       0.480000       1.000000    
+ 
+  8. Sample nr: 95, with distance: 0.099402 
+feature values: 
+   0.721519       0.681818       0.608696       0.480000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 11, with feature values:    0.607595       0.772727       0.231884       0.080000       0.000000       
+ 
+    1. Sample nr: 7, with distance: 0.029171 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  2. Sample nr: 39, with distance: 0.040646 
+feature values: 
+   0.645570       0.772727       0.217391       0.080000       0.000000    
+ 
+  3. Sample nr: 24, with distance: 0.043478 
+feature values: 
+   0.607595       0.772727       0.275362       0.080000       0.000000    
+ 
+  4. Sample nr: 49, with distance: 0.044695 
+feature values: 
+   0.632911       0.750000       0.202899       0.080000       0.000000    
+ 
+  5. Sample nr: 29, with distance: 0.047184 
+feature values: 
+   0.594937       0.727273       0.231884       0.080000       0.000000    
+ 
+  6. Sample nr: 0, with distance: 0.052903 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  7. Sample nr: 6, with distance: 0.055508 
+feature values: 
+   0.582278       0.772727       0.202899       0.120000       0.000000    
+ 
+  8. Sample nr: 27, with distance: 0.057361 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 129, with feature values:    0.911392       0.681818       0.840580       0.640000       2.000000       
+ 
+    1. Sample nr: 125, with distance: 0.096469 
+feature values: 
+   0.911392       0.727273       0.869565       0.720000       2.000000    
+ 
+  2. Sample nr: 107, with distance: 0.111030 
+feature values: 
+   0.924051       0.659091       0.913043       0.720000       2.000000    
+ 
+  3. Sample nr: 116, with distance: 0.127050 
+feature values: 
+   0.822785       0.681818       0.797101       0.720000       2.000000    
+ 
+  4. Sample nr: 130, with distance: 0.137831 
+feature values: 
+   0.936709       0.636364       0.884058       0.760000       2.000000    
+ 
+  5. Sample nr: 77, with distance: 0.138016 
+feature values: 
+   0.848101       0.681818       0.724638       0.680000       1.000000    
+ 
+  6. Sample nr: 137, with distance: 0.138064 
+feature values: 
+   0.810127       0.704545       0.797101       0.720000       2.000000    
+ 
+  7. Sample nr: 52, with distance: 0.143429 
+feature values: 
+   0.873418       0.704545       0.710145       0.600000       1.000000    
+ 
+  8. Sample nr: 103, with distance: 0.143998 
+feature values: 
+   0.797468       0.659091       0.811594       0.720000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 31, with feature values:    0.683544       0.772727       0.217391       0.160000       0.000000       
+ 
+    1. Sample nr: 26, with distance: 0.052666 
+feature values: 
+   0.632911       0.772727       0.231884       0.160000       0.000000    
+ 
+  2. Sample nr: 17, with distance: 0.061389 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  3. Sample nr: 23, with distance: 0.066323 
+feature values: 
+   0.645570       0.750000       0.246377       0.200000       0.000000    
+ 
+  4. Sample nr: 40, with distance: 0.074299 
+feature values: 
+   0.632911       0.795455       0.188406       0.120000       0.000000    
+ 
+  5. Sample nr: 21, with distance: 0.078044 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  6. Sample nr: 20, with distance: 0.085089 
+feature values: 
+   0.683544       0.772727       0.246377       0.080000       0.000000    
+ 
+  7. Sample nr: 28, with distance: 0.085153 
+feature values: 
+   0.658228       0.772727       0.202899       0.080000       0.000000    
+ 
+  8. Sample nr: 27, with distance: 0.086934 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 95, with feature values:    0.721519       0.681818       0.608696       0.480000       1.000000       
+ 
+    1. Sample nr: 88, with distance: 0.044388 
+feature values: 
+   0.708861       0.681818       0.594203       0.520000       1.000000    
+ 
+  2. Sample nr: 96, with distance: 0.046006 
+feature values: 
+   0.721519       0.659091       0.608696       0.520000       1.000000    
+ 
+  3. Sample nr: 99, with distance: 0.062259 
+feature values: 
+   0.721519       0.636364       0.594203       0.520000       1.000000    
+ 
+  4. Sample nr: 55, with distance: 0.074542 
+feature values: 
+   0.721519       0.636364       0.652174       0.520000       1.000000    
+ 
+  5. Sample nr: 97, with distance: 0.079576 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  6. Sample nr: 94, with distance: 0.080056 
+feature values: 
+   0.708861       0.613636       0.608696       0.520000       1.000000    
+ 
+  7. Sample nr: 82, with distance: 0.081850 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  8. Sample nr: 71, with distance: 0.084083 
+feature values: 
+   0.772152       0.636364       0.579710       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 123, with feature values:    0.797468       0.613636       0.710145       0.720000       2.000000       
+ 
+    1. Sample nr: 126, with distance: 0.029779 
+feature values: 
+   0.784810       0.636364       0.695652       0.720000       2.000000    
+ 
+  2. Sample nr: 146, with distance: 0.062259 
+feature values: 
+   0.797468       0.568182       0.724638       0.760000       2.000000    
+ 
+  3. Sample nr: 111, with distance: 0.071560 
+feature values: 
+   0.810127       0.613636       0.768116       0.760000       2.000000    
+ 
+  4. Sample nr: 127, with distance: 0.072730 
+feature values: 
+   0.772152       0.681818       0.710145       0.720000       2.000000    
+ 
+  5. Sample nr: 138, with distance: 0.079378 
+feature values: 
+   0.759494       0.681818       0.695652       0.720000       2.000000    
+ 
+  6. Sample nr: 101, with distance: 0.080287 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  7. Sample nr: 142, with distance: 0.080287 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  8. Sample nr: 149, with distance: 0.089736 
+feature values: 
+   0.746835       0.681818       0.739130       0.720000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 99, with feature values:    0.721519       0.636364       0.594203       0.520000       1.000000       
+ 
+    1. Sample nr: 96, with distance: 0.026955 
+feature values: 
+   0.721519       0.659091       0.608696       0.520000       1.000000    
+ 
+  2. Sample nr: 94, with distance: 0.029779 
+feature values: 
+   0.708861       0.613636       0.608696       0.520000       1.000000    
+ 
+  3. Sample nr: 88, with distance: 0.047184 
+feature values: 
+   0.708861       0.681818       0.594203       0.520000       1.000000    
+ 
+  4. Sample nr: 71, with distance: 0.052666 
+feature values: 
+   0.772152       0.636364       0.579710       0.520000       1.000000    
+ 
+  5. Sample nr: 82, with distance: 0.055829 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  6. Sample nr: 55, with distance: 0.057971 
+feature values: 
+   0.721519       0.636364       0.652174       0.520000       1.000000    
+ 
+  7. Sample nr: 95, with distance: 0.062259 
+feature values: 
+   0.721519       0.681818       0.608696       0.480000       1.000000    
+ 
+  8. Sample nr: 92, with distance: 0.063533 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 26, with feature values:    0.632911       0.772727       0.231884       0.160000       0.000000       
+ 
+    1. Sample nr: 23, with distance: 0.049868 
+feature values: 
+   0.645570       0.750000       0.246377       0.200000       0.000000    
+ 
+  2. Sample nr: 31, with distance: 0.052666 
+feature values: 
+   0.683544       0.772727       0.217391       0.160000       0.000000    
+ 
+  3. Sample nr: 17, with distance: 0.055829 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  4. Sample nr: 40, with distance: 0.063300 
+feature values: 
+   0.632911       0.795455       0.188406       0.120000       0.000000    
+ 
+  5. Sample nr: 6, with distance: 0.070738 
+feature values: 
+   0.582278       0.772727       0.202899       0.120000       0.000000    
+ 
+  6. Sample nr: 21, with distance: 0.070845 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  7. Sample nr: 7, with distance: 0.081302 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  8. Sample nr: 39, with distance: 0.082282 
+feature values: 
+   0.645570       0.772727       0.217391       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 61, with feature values:    0.746835       0.681818       0.608696       0.600000       1.000000       
+ 
+    1. Sample nr: 78, with distance: 0.050667 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  2. Sample nr: 66, with distance: 0.057727 
+feature values: 
+   0.708861       0.681818       0.652174       0.600000       1.000000    
+ 
+  3. Sample nr: 91, with distance: 0.074844 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  4. Sample nr: 84, with distance: 0.076786 
+feature values: 
+   0.683544       0.681818       0.652174       0.600000       1.000000    
+ 
+  5. Sample nr: 96, with distance: 0.086934 
+feature values: 
+   0.721519       0.659091       0.608696       0.520000       1.000000    
+ 
+  6. Sample nr: 51, with distance: 0.089231 
+feature values: 
+   0.810127       0.727273       0.652174       0.600000       1.000000    
+ 
+  7. Sample nr: 63, with distance: 0.089490 
+feature values: 
+   0.772152       0.659091       0.681159       0.560000       1.000000    
+ 
+  8. Sample nr: 88, with distance: 0.089734 
+feature values: 
+   0.708861       0.681818       0.594203       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 52, with feature values:    0.873418       0.704545       0.710145       0.600000       1.000000       
+ 
+    1. Sample nr: 86, with distance: 0.038485 
+feature values: 
+   0.848101       0.704545       0.681159       0.600000       1.000000    
+ 
+  2. Sample nr: 50, with distance: 0.055829 
+feature values: 
+   0.886076       0.727273       0.681159       0.560000       1.000000    
+ 
+  3. Sample nr: 76, with distance: 0.081357 
+feature values: 
+   0.860759       0.636364       0.695652       0.560000       1.000000    
+ 
+  4. Sample nr: 65, with distance: 0.086556 
+feature values: 
+   0.848101       0.704545       0.637681       0.560000       1.000000    
+ 
+  5. Sample nr: 77, with distance: 0.088133 
+feature values: 
+   0.848101       0.681818       0.724638       0.680000       1.000000    
+ 
+  6. Sample nr: 51, with distance: 0.088786 
+feature values: 
+   0.810127       0.727273       0.652174       0.600000       1.000000    
+ 
+  7. Sample nr: 75, with distance: 0.093859 
+feature values: 
+   0.835443       0.681818       0.637681       0.560000       1.000000    
+ 
+  8. Sample nr: 54, with distance: 0.095409 
+feature values: 
+   0.822785       0.636364       0.666667       0.600000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 18, with feature values:    0.721519       0.863636       0.246377       0.120000       0.000000       
+ 
+    1. Sample nr: 5, with distance: 0.059654 
+feature values: 
+   0.683544       0.886364       0.246377       0.160000       0.000000    
+ 
+  2. Sample nr: 10, with distance: 0.066323 
+feature values: 
+   0.683544       0.840909       0.217391       0.080000       0.000000    
+ 
+  3. Sample nr: 48, with distance: 0.074299 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 19, with distance: 0.081292 
+feature values: 
+   0.645570       0.863636       0.217391       0.120000       0.000000    
+ 
+  5. Sample nr: 16, with distance: 0.083182 
+feature values: 
+   0.683544       0.886364       0.188406       0.160000       0.000000    
+ 
+  6. Sample nr: 46, with distance: 0.087054 
+feature values: 
+   0.645570       0.863636       0.231884       0.080000       0.000000    
+ 
+  7. Sample nr: 44, with distance: 0.090601 
+feature values: 
+   0.645570       0.863636       0.275362       0.160000       0.000000    
+ 
+  8. Sample nr: 21, with distance: 0.093408 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 4, with feature values:    0.632911       0.818182       0.202899       0.080000       0.000000       
+ 
+    1. Sample nr: 0, with distance: 0.026015 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  2. Sample nr: 27, with distance: 0.036980 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  3. Sample nr: 48, with distance: 0.046569 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 7, with distance: 0.047709 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  5. Sample nr: 17, with distance: 0.047715 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  6. Sample nr: 40, with distance: 0.048235 
+feature values: 
+   0.632911       0.795455       0.188406       0.120000       0.000000    
+ 
+  7. Sample nr: 39, with distance: 0.049360 
+feature values: 
+   0.645570       0.772727       0.217391       0.080000       0.000000    
+ 
+  8. Sample nr: 28, with distance: 0.052029 
+feature values: 
+   0.658228       0.772727       0.202899       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 13, with feature values:    0.544304       0.681818       0.159420       0.040000       0.000000       
+ 
+    1. Sample nr: 38, with distance: 0.050994 
+feature values: 
+   0.556962       0.681818       0.188406       0.080000       0.000000    
+ 
+  2. Sample nr: 8, with distance: 0.064553 
+feature values: 
+   0.556962       0.659091       0.202899       0.080000       0.000000    
+ 
+  3. Sample nr: 42, with distance: 0.068312 
+feature values: 
+   0.556962       0.727273       0.188406       0.080000       0.000000    
+ 
+  4. Sample nr: 12, with distance: 0.076786 
+feature values: 
+   0.607595       0.681818       0.202899       0.040000       0.000000    
+ 
+  5. Sample nr: 3, with distance: 0.083182 
+feature values: 
+   0.582278       0.704545       0.217391       0.080000       0.000000    
+ 
+  6. Sample nr: 47, with distance: 0.083657 
+feature values: 
+   0.582278       0.727273       0.202899       0.080000       0.000000    
+ 
+  7. Sample nr: 2, with distance: 0.084083 
+feature values: 
+   0.594937       0.727273       0.188406       0.080000       0.000000    
+ 
+  8. Sample nr: 1, with distance: 0.096222 
+feature values: 
+   0.620253       0.681818       0.202899       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 67, with feature values:    0.734177       0.613636       0.594203       0.400000       1.000000       
+ 
+    1. Sample nr: 69, with distance: 0.071744 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  2. Sample nr: 92, with distance: 0.084419 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  3. Sample nr: 82, with distance: 0.085089 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  4. Sample nr: 79, with distance: 0.090765 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  5. Sample nr: 81, with distance: 0.097219 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  6. Sample nr: 80, with distance: 0.097884 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  7. Sample nr: 90, with distance: 0.101237 
+feature values: 
+   0.696203       0.590909       0.637681       0.480000       1.000000    
+ 
+  8. Sample nr: 95, with distance: 0.106860 
+feature values: 
+   0.721519       0.681818       0.608696       0.480000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 57, with feature values:    0.620253       0.545455       0.478261       0.400000       1.000000       
+ 
+    1. Sample nr: 93, with distance: 0.026015 
+feature values: 
+   0.632911       0.522727       0.478261       0.400000       1.000000    
+ 
+  2. Sample nr: 98, with distance: 0.068175 
+feature values: 
+   0.645570       0.568182       0.434783       0.440000       1.000000    
+ 
+  3. Sample nr: 81, with distance: 0.095546 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  4. Sample nr: 60, with distance: 0.096254 
+feature values: 
+   0.632911       0.454545       0.507246       0.400000       1.000000    
+ 
+  5. Sample nr: 80, with distance: 0.112336 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  6. Sample nr: 79, with distance: 0.114722 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  7. Sample nr: 69, with distance: 0.132398 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  8. Sample nr: 89, with distance: 0.176002 
+feature values: 
+   0.696203       0.568182       0.579710       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 37, with feature values:    0.620253       0.704545       0.217391       0.040000       0.000000       
+ 
+    1. Sample nr: 34, with distance: 0.000000 
+feature values: 
+   0.620253       0.704545       0.217391       0.040000       0.000000    
+ 
+  2. Sample nr: 9, with distance: 0.000000 
+feature values: 
+   0.620253       0.704545       0.217391       0.040000       0.000000    
+ 
+  3. Sample nr: 12, with distance: 0.029779 
+feature values: 
+   0.607595       0.681818       0.202899       0.040000       0.000000    
+ 
+  4. Sample nr: 30, with distance: 0.044388 
+feature values: 
+   0.607595       0.704545       0.231884       0.080000       0.000000    
+ 
+  5. Sample nr: 1, with distance: 0.048235 
+feature values: 
+   0.620253       0.681818       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 25, with distance: 0.049868 
+feature values: 
+   0.632911       0.681818       0.231884       0.080000       0.000000    
+ 
+  7. Sample nr: 29, with distance: 0.054475 
+feature values: 
+   0.594937       0.727273       0.231884       0.080000       0.000000    
+ 
+  8. Sample nr: 3, with distance: 0.055155 
+feature values: 
+   0.582278       0.704545       0.217391       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 38, with feature values:    0.556962       0.681818       0.188406       0.080000       0.000000       
+ 
+    1. Sample nr: 8, with distance: 0.026955 
+feature values: 
+   0.556962       0.659091       0.202899       0.080000       0.000000    
+ 
+  2. Sample nr: 3, with distance: 0.044695 
+feature values: 
+   0.582278       0.704545       0.217391       0.080000       0.000000    
+ 
+  3. Sample nr: 42, with distance: 0.045455 
+feature values: 
+   0.556962       0.727273       0.188406       0.080000       0.000000    
+ 
+  4. Sample nr: 13, with distance: 0.050994 
+feature values: 
+   0.544304       0.681818       0.159420       0.040000       0.000000    
+ 
+  5. Sample nr: 47, with distance: 0.054010 
+feature values: 
+   0.582278       0.727273       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 2, with distance: 0.059230 
+feature values: 
+   0.594937       0.727273       0.188406       0.080000       0.000000    
+ 
+  7. Sample nr: 1, with distance: 0.064929 
+feature values: 
+   0.620253       0.681818       0.202899       0.080000       0.000000    
+ 
+  8. Sample nr: 45, with distance: 0.066134 
+feature values: 
+   0.607595       0.681818       0.202899       0.120000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 28, with feature values:    0.658228       0.772727       0.202899       0.080000       0.000000       
+ 
+    1. Sample nr: 39, with distance: 0.019242 
+feature values: 
+   0.645570       0.772727       0.217391       0.080000       0.000000    
+ 
+  2. Sample nr: 0, with distance: 0.026015 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  3. Sample nr: 27, with distance: 0.026955 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 7, with distance: 0.029171 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  5. Sample nr: 49, with distance: 0.034021 
+feature values: 
+   0.632911       0.750000       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 36, with distance: 0.046569 
+feature values: 
+   0.696203       0.795455       0.188406       0.080000       0.000000    
+ 
+  7. Sample nr: 17, with distance: 0.047715 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  8. Sample nr: 20, with distance: 0.050312 
+feature values: 
+   0.683544       0.772727       0.246377       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 93, with feature values:    0.632911       0.522727       0.478261       0.400000       1.000000       
+ 
+    1. Sample nr: 57, with distance: 0.026015 
+feature values: 
+   0.620253       0.545455       0.478261       0.400000       1.000000    
+ 
+  2. Sample nr: 60, with distance: 0.074087 
+feature values: 
+   0.632911       0.454545       0.507246       0.400000       1.000000    
+ 
+  3. Sample nr: 98, with distance: 0.075609 
+feature values: 
+   0.645570       0.568182       0.434783       0.440000       1.000000    
+ 
+  4. Sample nr: 81, with distance: 0.088786 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  5. Sample nr: 80, with distance: 0.106646 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  6. Sample nr: 79, with distance: 0.115500 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  7. Sample nr: 69, with distance: 0.130368 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  8. Sample nr: 62, with distance: 0.163803 
+feature values: 
+   0.759494       0.500000       0.579710       0.400000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 113, with feature values:    0.721519       0.568182       0.724638       0.800000       2.000000       
+ 
+    1. Sample nr: 101, with distance: 0.063533 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  2. Sample nr: 142, with distance: 0.063533 
+feature values: 
+   0.734177       0.613636       0.739130       0.760000       2.000000    
+ 
+  3. Sample nr: 121, with distance: 0.070845 
+feature values: 
+   0.708861       0.636364       0.710145       0.800000       2.000000    
+ 
+  4. Sample nr: 146, with distance: 0.085839 
+feature values: 
+   0.797468       0.568182       0.724638       0.760000       2.000000    
+ 
+  5. Sample nr: 111, with distance: 0.115792 
+feature values: 
+   0.810127       0.613636       0.768116       0.760000       2.000000    
+ 
+  6. Sample nr: 123, with distance: 0.120185 
+feature values: 
+   0.797468       0.613636       0.710145       0.720000       2.000000    
+ 
+  7. Sample nr: 126, with distance: 0.126074 
+feature values: 
+   0.784810       0.636364       0.695652       0.720000       2.000000    
+ 
+  8. Sample nr: 149, with distance: 0.142001 
+feature values: 
+   0.746835       0.681818       0.739130       0.720000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 16, with feature values:    0.683544       0.886364       0.188406       0.160000       0.000000       
+ 
+    1. Sample nr: 5, with distance: 0.057971 
+feature values: 
+   0.683544       0.886364       0.246377       0.160000       0.000000    
+ 
+  2. Sample nr: 21, with distance: 0.065942 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  3. Sample nr: 19, with distance: 0.066323 
+feature values: 
+   0.645570       0.863636       0.217391       0.120000       0.000000    
+ 
+  4. Sample nr: 18, with distance: 0.083182 
+feature values: 
+   0.721519       0.863636       0.246377       0.120000       0.000000    
+ 
+  5. Sample nr: 10, with distance: 0.096469 
+feature values: 
+   0.683544       0.840909       0.217391       0.080000       0.000000    
+ 
+  6. Sample nr: 48, with distance: 0.097296 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  7. Sample nr: 44, with distance: 0.097571 
+feature values: 
+   0.645570       0.863636       0.275362       0.160000       0.000000    
+ 
+  8. Sample nr: 14, with distance: 0.098439 
+feature values: 
+   0.734177       0.909091       0.173913       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 46, with feature values:    0.645570       0.863636       0.231884       0.080000       0.000000       
+ 
+    1. Sample nr: 48, with distance: 0.036980 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  2. Sample nr: 19, with distance: 0.042545 
+feature values: 
+   0.645570       0.863636       0.217391       0.120000       0.000000    
+ 
+  3. Sample nr: 10, with distance: 0.046569 
+feature values: 
+   0.683544       0.840909       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 4, with distance: 0.055376 
+feature values: 
+   0.632911       0.818182       0.202899       0.080000       0.000000    
+ 
+  5. Sample nr: 27, with distance: 0.070845 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  6. Sample nr: 0, with distance: 0.074087 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  7. Sample nr: 32, with distance: 0.081357 
+feature values: 
+   0.658228       0.931818       0.217391       0.040000       0.000000    
+ 
+  8. Sample nr: 17, with distance: 0.084196 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 133, with feature values:    0.797468       0.636364       0.739130       0.600000       2.000000       
+ 
+    1. Sample nr: 83, with distance: 0.059654 
+feature values: 
+   0.759494       0.613636       0.739130       0.640000       1.000000    
+ 
+  2. Sample nr: 72, with distance: 0.074087 
+feature values: 
+   0.797468       0.568182       0.710145       0.600000       1.000000    
+ 
+  3. Sample nr: 54, with distance: 0.076759 
+feature values: 
+   0.822785       0.636364       0.666667       0.600000       1.000000    
+ 
+  4. Sample nr: 63, with distance: 0.078218 
+feature values: 
+   0.772152       0.659091       0.681159       0.560000       1.000000    
+ 
+  5. Sample nr: 76, with distance: 0.086580 
+feature values: 
+   0.860759       0.636364       0.695652       0.560000       1.000000    
+ 
+  6. Sample nr: 78, with distance: 0.097571 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  7. Sample nr: 134, with distance: 0.097765 
+feature values: 
+   0.772152       0.590909       0.811594       0.560000       2.000000    
+ 
+  8. Sample nr: 91, with distance: 0.097765 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 28, with feature values:    0.658228       0.772727       0.202899       0.080000       0.000000       
+ 
+    1. Sample nr: 39, with distance: 0.019242 
+feature values: 
+   0.645570       0.772727       0.217391       0.080000       0.000000    
+ 
+  2. Sample nr: 0, with distance: 0.026015 
+feature values: 
+   0.645570       0.795455       0.202899       0.080000       0.000000    
+ 
+  3. Sample nr: 27, with distance: 0.026955 
+feature values: 
+   0.658228       0.795455       0.217391       0.080000       0.000000    
+ 
+  4. Sample nr: 7, with distance: 0.029171 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  5. Sample nr: 49, with distance: 0.034021 
+feature values: 
+   0.632911       0.750000       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 36, with distance: 0.046569 
+feature values: 
+   0.696203       0.795455       0.188406       0.080000       0.000000    
+ 
+  7. Sample nr: 17, with distance: 0.047715 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  8. Sample nr: 20, with distance: 0.050312 
+feature values: 
+   0.683544       0.772727       0.246377       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 148, with feature values:    0.784810       0.772727       0.782609       0.920000       2.000000       
+ 
+    1. Sample nr: 136, with distance: 0.050994 
+feature values: 
+   0.797468       0.772727       0.811594       0.960000       2.000000    
+ 
+  2. Sample nr: 115, with distance: 0.054010 
+feature values: 
+   0.810127       0.727273       0.768116       0.920000       2.000000    
+ 
+  3. Sample nr: 140, with distance: 0.105331 
+feature values: 
+   0.848101       0.704545       0.811594       0.960000       2.000000    
+ 
+  4. Sample nr: 120, with distance: 0.108664 
+feature values: 
+   0.873418       0.727273       0.826087       0.920000       2.000000    
+ 
+  5. Sample nr: 124, with distance: 0.113193 
+feature values: 
+   0.848101       0.750000       0.826087       0.840000       2.000000    
+ 
+  6. Sample nr: 144, with distance: 0.113193 
+feature values: 
+   0.848101       0.750000       0.826087       1.000000       2.000000    
+ 
+  7. Sample nr: 143, with distance: 0.114392 
+feature values: 
+   0.860759       0.727273       0.855072       0.920000       2.000000    
+ 
+  8. Sample nr: 145, with distance: 0.114501 
+feature values: 
+   0.848101       0.681818       0.753623       0.920000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 85, with feature values:    0.759494       0.772727       0.652174       0.640000       1.000000       
+ 
+    1. Sample nr: 56, with distance: 0.052903 
+feature values: 
+   0.797468       0.750000       0.681159       0.640000       1.000000    
+ 
+  2. Sample nr: 51, with distance: 0.078929 
+feature values: 
+   0.810127       0.727273       0.652174       0.600000       1.000000    
+ 
+  3. Sample nr: 70, with distance: 0.102551 
+feature values: 
+   0.746835       0.727273       0.695652       0.720000       1.000000    
+ 
+  4. Sample nr: 61, with distance: 0.109156 
+feature values: 
+   0.746835       0.681818       0.608696       0.600000       1.000000    
+ 
+  5. Sample nr: 66, with distance: 0.111482 
+feature values: 
+   0.708861       0.681818       0.652174       0.600000       1.000000    
+ 
+  6. Sample nr: 78, with distance: 0.120471 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  7. Sample nr: 86, with distance: 0.122230 
+feature values: 
+   0.848101       0.704545       0.681159       0.600000       1.000000    
+ 
+  8. Sample nr: 91, with distance: 0.122616 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 21, with feature values:    0.645570       0.840909       0.217391       0.160000       0.000000       
+ 
+    1. Sample nr: 19, with distance: 0.046006 
+feature values: 
+   0.645570       0.863636       0.217391       0.120000       0.000000    
+ 
+  2. Sample nr: 17, with distance: 0.062259 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  3. Sample nr: 44, with distance: 0.062267 
+feature values: 
+   0.645570       0.863636       0.275362       0.160000       0.000000    
+ 
+  4. Sample nr: 5, with distance: 0.065942 
+feature values: 
+   0.683544       0.886364       0.246377       0.160000       0.000000    
+ 
+  5. Sample nr: 16, with distance: 0.065942 
+feature values: 
+   0.683544       0.886364       0.188406       0.160000       0.000000    
+ 
+  6. Sample nr: 40, with distance: 0.068312 
+feature values: 
+   0.632911       0.795455       0.188406       0.120000       0.000000    
+ 
+  7. Sample nr: 26, with distance: 0.070845 
+feature values: 
+   0.632911       0.772727       0.231884       0.160000       0.000000    
+ 
+  8. Sample nr: 31, with distance: 0.078044 
+feature values: 
+   0.683544       0.772727       0.217391       0.160000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 37, with feature values:    0.620253       0.704545       0.217391       0.040000       0.000000       
+ 
+    1. Sample nr: 34, with distance: 0.000000 
+feature values: 
+   0.620253       0.704545       0.217391       0.040000       0.000000    
+ 
+  2. Sample nr: 9, with distance: 0.000000 
+feature values: 
+   0.620253       0.704545       0.217391       0.040000       0.000000    
+ 
+  3. Sample nr: 12, with distance: 0.029779 
+feature values: 
+   0.607595       0.681818       0.202899       0.040000       0.000000    
+ 
+  4. Sample nr: 30, with distance: 0.044388 
+feature values: 
+   0.607595       0.704545       0.231884       0.080000       0.000000    
+ 
+  5. Sample nr: 1, with distance: 0.048235 
+feature values: 
+   0.620253       0.681818       0.202899       0.080000       0.000000    
+ 
+  6. Sample nr: 25, with distance: 0.049868 
+feature values: 
+   0.632911       0.681818       0.231884       0.080000       0.000000    
+ 
+  7. Sample nr: 29, with distance: 0.054475 
+feature values: 
+   0.594937       0.727273       0.231884       0.080000       0.000000    
+ 
+  8. Sample nr: 3, with distance: 0.055155 
+feature values: 
+   0.582278       0.704545       0.217391       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 62, with feature values:    0.759494       0.500000       0.579710       0.400000       1.000000       
+ 
+    1. Sample nr: 81, with distance: 0.089231 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  2. Sample nr: 80, with distance: 0.092261 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  3. Sample nr: 69, with distance: 0.094987 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  4. Sample nr: 67, with distance: 0.117321 
+feature values: 
+   0.734177       0.613636       0.594203       0.400000       1.000000    
+ 
+  5. Sample nr: 79, with distance: 0.122301 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.123715 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 53, with distance: 0.137558 
+feature values: 
+   0.696203       0.522727       0.579710       0.520000       1.000000    
+ 
+  8. Sample nr: 87, with distance: 0.140425 
+feature values: 
+   0.797468       0.522727       0.637681       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 6, with feature values:    0.582278       0.772727       0.202899       0.120000       0.000000       
+ 
+    1. Sample nr: 11, with distance: 0.055508 
+feature values: 
+   0.607595       0.772727       0.231884       0.080000       0.000000    
+ 
+  2. Sample nr: 40, with distance: 0.057361 
+feature values: 
+   0.632911       0.795455       0.188406       0.120000       0.000000    
+ 
+  3. Sample nr: 47, with distance: 0.060548 
+feature values: 
+   0.582278       0.727273       0.202899       0.080000       0.000000    
+ 
+  4. Sample nr: 2, with distance: 0.063533 
+feature values: 
+   0.594937       0.727273       0.188406       0.080000       0.000000    
+ 
+  5. Sample nr: 7, with distance: 0.066134 
+feature values: 
+   0.632911       0.772727       0.217391       0.080000       0.000000    
+ 
+  6. Sample nr: 42, with distance: 0.067209 
+feature values: 
+   0.556962       0.727273       0.188406       0.080000       0.000000    
+ 
+  7. Sample nr: 17, with distance: 0.067248 
+feature values: 
+   0.645570       0.795455       0.202899       0.120000       0.000000    
+ 
+  8. Sample nr: 29, with distance: 0.068312 
+feature values: 
+   0.594937       0.727273       0.231884       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 94, with feature values:    0.708861       0.613636       0.608696       0.520000       1.000000       
+ 
+    1. Sample nr: 99, with distance: 0.029779 
+feature values: 
+   0.721519       0.636364       0.594203       0.520000       1.000000    
+ 
+  2. Sample nr: 96, with distance: 0.047184 
+feature values: 
+   0.721519       0.659091       0.608696       0.520000       1.000000    
+ 
+  3. Sample nr: 55, with distance: 0.050667 
+feature values: 
+   0.721519       0.636364       0.652174       0.520000       1.000000    
+ 
+  4. Sample nr: 89, with distance: 0.055376 
+feature values: 
+   0.696203       0.568182       0.579710       0.520000       1.000000    
+ 
+  5. Sample nr: 90, with distance: 0.055829 
+feature values: 
+   0.696203       0.590909       0.637681       0.480000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.059980 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 82, with distance: 0.064275 
+feature values: 
+   0.734177       0.613636       0.565217       0.480000       1.000000    
+ 
+  8. Sample nr: 88, with distance: 0.069705 
+feature values: 
+   0.708861       0.681818       0.594203       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 58, with feature values:    0.835443       0.659091       0.666667       0.520000       1.000000       
+ 
+    1. Sample nr: 74, with distance: 0.050312 
+feature values: 
+   0.810127       0.659091       0.623188       0.520000       1.000000    
+ 
+  2. Sample nr: 75, with distance: 0.054375 
+feature values: 
+   0.835443       0.681818       0.637681       0.560000       1.000000    
+ 
+  3. Sample nr: 76, with distance: 0.059980 
+feature values: 
+   0.860759       0.636364       0.695652       0.560000       1.000000    
+ 
+  4. Sample nr: 97, with distance: 0.066739 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  5. Sample nr: 65, with distance: 0.068312 
+feature values: 
+   0.848101       0.704545       0.637681       0.560000       1.000000    
+ 
+  6. Sample nr: 63, with distance: 0.076261 
+feature values: 
+   0.772152       0.659091       0.681159       0.560000       1.000000    
+ 
+  7. Sample nr: 91, with distance: 0.078245 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  8. Sample nr: 73, with distance: 0.079576 
+feature values: 
+   0.772152       0.636364       0.681159       0.480000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 16, with feature values:    0.683544       0.886364       0.188406       0.160000       0.000000       
+ 
+    1. Sample nr: 5, with distance: 0.057971 
+feature values: 
+   0.683544       0.886364       0.246377       0.160000       0.000000    
+ 
+  2. Sample nr: 21, with distance: 0.065942 
+feature values: 
+   0.645570       0.840909       0.217391       0.160000       0.000000    
+ 
+  3. Sample nr: 19, with distance: 0.066323 
+feature values: 
+   0.645570       0.863636       0.217391       0.120000       0.000000    
+ 
+  4. Sample nr: 18, with distance: 0.083182 
+feature values: 
+   0.721519       0.863636       0.246377       0.120000       0.000000    
+ 
+  5. Sample nr: 10, with distance: 0.096469 
+feature values: 
+   0.683544       0.840909       0.217391       0.080000       0.000000    
+ 
+  6. Sample nr: 48, with distance: 0.097296 
+feature values: 
+   0.670886       0.840909       0.217391       0.080000       0.000000    
+ 
+  7. Sample nr: 44, with distance: 0.097571 
+feature values: 
+   0.645570       0.863636       0.275362       0.160000       0.000000    
+ 
+  8. Sample nr: 14, with distance: 0.098439 
+feature values: 
+   0.734177       0.909091       0.173913       0.080000       0.000000    
+ 
+  The sample if classified as class = 0 
+
+ 
+
+8-nearest Neighboors of the sample number: 130, with feature values:    0.936709       0.636364       0.884058       0.760000       2.000000       
+ 
+    1. Sample nr: 107, with distance: 0.055829 
+feature values: 
+   0.924051       0.659091       0.913043       0.720000       2.000000    
+ 
+  2. Sample nr: 122, with distance: 0.102973 
+feature values: 
+   0.974684       0.636364       0.971014       0.800000       2.000000    
+ 
+  3. Sample nr: 125, with distance: 0.103515 
+feature values: 
+   0.911392       0.727273       0.869565       0.720000       2.000000    
+ 
+  4. Sample nr: 102, with distance: 0.103674 
+feature values: 
+   0.898734       0.681818       0.855072       0.840000       2.000000    
+ 
+  5. Sample nr: 105, with distance: 0.119825 
+feature values: 
+   0.962025       0.681818       0.956522       0.840000       2.000000    
+ 
+  6. Sample nr: 108, with distance: 0.126453 
+feature values: 
+   0.848101       0.568182       0.840580       0.720000       2.000000    
+ 
+  7. Sample nr: 129, with distance: 0.137831 
+feature values: 
+   0.911392       0.681818       0.840580       0.640000       2.000000    
+ 
+  8. Sample nr: 112, with distance: 0.147634 
+feature values: 
+   0.860759       0.681818       0.797101       0.840000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 109, with feature values:    0.911392       0.818182       0.884058       1.000000       2.000000       
+ 
+    1. Sample nr: 144, with distance: 0.109614 
+feature values: 
+   0.848101       0.750000       0.826087       1.000000       2.000000    
+ 
+  2. Sample nr: 100, with distance: 0.133557 
+feature values: 
+   0.797468       0.750000       0.869565       1.000000       2.000000    
+ 
+  3. Sample nr: 143, with distance: 0.134418 
+feature values: 
+   0.860759       0.727273       0.855072       0.920000       2.000000    
+ 
+  4. Sample nr: 120, with distance: 0.139525 
+feature values: 
+   0.873418       0.727273       0.826087       0.920000       2.000000    
+ 
+  5. Sample nr: 136, with distance: 0.147972 
+feature values: 
+   0.797468       0.772727       0.811594       0.960000       2.000000    
+ 
+  6. Sample nr: 140, with distance: 0.154175 
+feature values: 
+   0.848101       0.704545       0.811594       0.960000       2.000000    
+ 
+  7. Sample nr: 117, with distance: 0.167432 
+feature values: 
+   0.974684       0.863636       0.971014       0.880000       2.000000    
+ 
+  8. Sample nr: 135, with distance: 0.170296 
+feature values: 
+   0.974684       0.681818       0.884058       0.920000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 108, with feature values:    0.848101       0.568182       0.840580       0.720000       2.000000       
+ 
+    1. Sample nr: 111, with distance: 0.101780 
+feature values: 
+   0.810127       0.613636       0.768116       0.760000       2.000000    
+ 
+  2. Sample nr: 103, with distance: 0.108020 
+feature values: 
+   0.797468       0.659091       0.811594       0.720000       2.000000    
+ 
+  3. Sample nr: 116, with distance: 0.124276 
+feature values: 
+   0.822785       0.681818       0.797101       0.720000       2.000000    
+ 
+  4. Sample nr: 130, with distance: 0.126453 
+feature values: 
+   0.936709       0.636364       0.884058       0.760000       2.000000    
+ 
+  5. Sample nr: 146, with distance: 0.132689 
+feature values: 
+   0.797468       0.568182       0.724638       0.760000       2.000000    
+ 
+  6. Sample nr: 107, with distance: 0.138866 
+feature values: 
+   0.924051       0.659091       0.913043       0.720000       2.000000    
+ 
+  7. Sample nr: 128, with distance: 0.146051 
+feature values: 
+   0.810127       0.636364       0.811594       0.840000       2.000000    
+ 
+  8. Sample nr: 123, with distance: 0.147116 
+feature values: 
+   0.797468       0.613636       0.710145       0.720000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+
+8-nearest Neighboors of the sample number: 63, with feature values:    0.772152       0.659091       0.681159       0.560000       1.000000       
+ 
+    1. Sample nr: 91, with distance: 0.026955 
+feature values: 
+   0.772152       0.681818       0.666667       0.560000       1.000000    
+ 
+  2. Sample nr: 78, with distance: 0.050994 
+feature values: 
+   0.759494       0.659091       0.652174       0.600000       1.000000    
+ 
+  3. Sample nr: 54, with distance: 0.069930 
+feature values: 
+   0.822785       0.636364       0.666667       0.600000       1.000000    
+ 
+  4. Sample nr: 97, with distance: 0.071560 
+feature values: 
+   0.784810       0.659091       0.623188       0.520000       1.000000    
+ 
+  5. Sample nr: 55, with distance: 0.074299 
+feature values: 
+   0.721519       0.636364       0.652174       0.520000       1.000000    
+ 
+  6. Sample nr: 58, with distance: 0.076261 
+feature values: 
+   0.835443       0.659091       0.666667       0.520000       1.000000    
+ 
+  7. Sample nr: 133, with distance: 0.078218 
+feature values: 
+   0.797468       0.636364       0.739130       0.600000       2.000000    
+ 
+  8. Sample nr: 74, with distance: 0.080017 
+feature values: 
+   0.810127       0.659091       0.623188       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 62, with feature values:    0.759494       0.500000       0.579710       0.400000       1.000000       
+ 
+    1. Sample nr: 81, with distance: 0.089231 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  2. Sample nr: 80, with distance: 0.092261 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  3. Sample nr: 69, with distance: 0.094987 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  4. Sample nr: 67, with distance: 0.117321 
+feature values: 
+   0.734177       0.613636       0.594203       0.400000       1.000000    
+ 
+  5. Sample nr: 79, with distance: 0.122301 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.123715 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 53, with distance: 0.137558 
+feature values: 
+   0.696203       0.522727       0.579710       0.520000       1.000000    
+ 
+  8. Sample nr: 87, with distance: 0.140425 
+feature values: 
+   0.797468       0.522727       0.637681       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+8-nearest Neighboors of the sample number: 62, with feature values:    0.759494       0.500000       0.579710       0.400000       1.000000       
+ 
+    1. Sample nr: 81, with distance: 0.089231 
+feature values: 
+   0.696203       0.545455       0.536232       0.400000       1.000000    
+ 
+  2. Sample nr: 80, with distance: 0.092261 
+feature values: 
+   0.696203       0.545455       0.550725       0.440000       1.000000    
+ 
+  3. Sample nr: 69, with distance: 0.094987 
+feature values: 
+   0.708861       0.568182       0.565217       0.440000       1.000000    
+ 
+  4. Sample nr: 67, with distance: 0.117321 
+feature values: 
+   0.734177       0.613636       0.594203       0.400000       1.000000    
+ 
+  5. Sample nr: 79, with distance: 0.122301 
+feature values: 
+   0.721519       0.590909       0.507246       0.400000       1.000000    
+ 
+  6. Sample nr: 92, with distance: 0.123715 
+feature values: 
+   0.734177       0.590909       0.579710       0.480000       1.000000    
+ 
+  7. Sample nr: 53, with distance: 0.137558 
+feature values: 
+   0.696203       0.522727       0.579710       0.520000       1.000000    
+ 
+  8. Sample nr: 87, with distance: 0.140425 
+feature values: 
+   0.797468       0.522727       0.637681       0.520000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+

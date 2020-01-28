@@ -1,0 +1,54 @@
+3-nearest Neighboors of the sample with feature values:    5.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000       
+ 
+    1. Sample nr: 8, with distance: 4.690416 
+feature values: 
+   1.000000       1.000000       1.000000       1.000000       1.000000       1.000000       1.000000       3.000000    
+ 
+  2. Sample nr: 11, with distance: 4.900000 
+feature values: 
+   0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  3. Sample nr: 0, with distance: 5.000000 
+feature values: 
+   0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+3-nearest Neighboors of the sample with feature values:    0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000       
+ 
+    1. Sample nr: 11, with distance: 0.000000 
+feature values: 
+   0.100000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  2. Sample nr: 0, with distance: 0.100000 
+feature values: 
+   0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  3. Sample nr: 6, with distance: 0.141421 
+feature values: 
+   0.000000       0.000000       0.100000       0.000000       0.000000       0.000000       0.000000       1.000000    
+ 
+  The sample if classified as class = 1 
+
+ 
+
+3-nearest Neighboors of the sample with feature values:    1300.000000       1200.000000       122.000000       12212.000000       1.000000       9.000000       10.000000       4.000000       
+ 
+    1. Sample nr: 1, with distance: 0.000000 
+feature values: 
+   1300.000000       1200.000000       122.000000       12212.000000       1.000000       9.000000       10.000000       4.000000    
+ 
+  2. Sample nr: 4, with distance: 12337.089844 
+feature values: 
+   2.500000       2.500000       2.500000       2.500000       2.500000       2.500000       2.500000       2.000000    
+ 
+  3. Sample nr: 5, with distance: 12337.089844 
+feature values: 
+   2.500000       2.500000       2.500000       2.500000       2.500000       2.500000       2.700000       2.000000    
+ 
+  The sample if classified as class = 2 
+
+ 
+

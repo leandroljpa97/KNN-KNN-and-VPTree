@@ -2,12 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <sys/un.h>
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <netinet/in.h>
-#include <netdb.h>
 #include <ctype.h>
 #include <math.h>
 #include <time.h>
@@ -61,7 +58,7 @@ float gowerDistance(int i,int _sampleClassified){
 
 
     distance = nominalAtrib(dataSetCat.matrix[i][0],dataSetCat.matrix[_sampleClassified][0])+nominalAtrib(dataSetCat.matrix[i][1],dataSetCat.matrix[_sampleClassified][1])+numericalAtrib(atoi(dataSetCat.matrix[i][2]),atoi(dataSetCat.matrix[_sampleClassified][2]),5)+numericalAtrib(atoi(dataSetCat.matrix[i][3]),atoi(dataSetCat.matrix[_sampleClassified][3]),5)+nominalAtrib(dataSetCat.matrix[i][4],dataSetCat.matrix[_sampleClassified][4])+nominalAtrib(dataSetCat.matrix[i][5],dataSetCat.matrix[_sampleClassified][5]);
-    
+
     distance = distance/dataSetCat.nrFeatures;
 
     return (float)distance;
@@ -70,7 +67,7 @@ float gowerDistance(int i,int _sampleClassified){
 }
 
 float * computeDistances(int _sampleClassified, int typeOfDataSet){
-		
+
 	float * distances;
 
 	if (typeOfDataSet == NUMERICAL){
@@ -87,7 +84,7 @@ float * computeDistances(int _sampleClassified, int typeOfDataSet){
 			}
 		}
     }
-   
+
     else if(typeOfDataSet == CATEGORIC){
     	 distances = (float*)malloc(dataSetCat.nrSamples*sizeof(float));
 
@@ -103,7 +100,7 @@ float * computeDistances(int _sampleClassified, int typeOfDataSet){
 		}
 
     }
-    
+
 
     return distances;
 
@@ -113,7 +110,7 @@ float * computeDistances(int _sampleClassified, int typeOfDataSet){
 void writeIt(FILE * f, int k, int sampleClassified, float * distances, int* neighboors,int typeOfDataSet,int class){
 	fprintf(f, "%d-nearest Neighboors of the sample number: %d, with feature values: ", initialK,sampleClassified);
 
-	
+
 
 
 	if(typeOfDataSet == NUMERICAL){
@@ -142,7 +139,7 @@ void writeIt(FILE * f, int k, int sampleClassified, float * distances, int* neig
 		fprintf(f,"   %s    ", dataSetCat.matrix[sampleClassified][j]);
 	}
 	fprintf(f,"   \n \n    ");
-	
+
 		for(int i=0; i < k; i++){
 			if(flagQuick)
 				fprintf(f,"%d. Sample nr: %d, with distance: %f \n", i+1,neighboors[i],distances[dataSetCat.nrSamples-i-1]);
@@ -188,7 +185,7 @@ void writeIt(FILE * f, int k, int sampleClassified, float * distances, int* neig
 		fprintf(f, "\n \n\n" );
 
 	}
-	
+
 }
 
 void writeOneOnFile(int k, int sampleClassified, float * distances, int* neighboors, int algorithm,int typeOfDataSet, int class){
@@ -199,9 +196,9 @@ void writeOneOnFile(int k, int sampleClassified, float * distances, int* neighbo
 
 	sprintf(auxK, "%d", initialK);
 	char str[500];
-	
 
-		strcat(str,"Results/");
+
+	strcpy(str,"Results/");
 	strcat(str,auxFile);
 
 	if (algorithm == KNN)
@@ -210,9 +207,10 @@ void writeOneOnFile(int k, int sampleClassified, float * distances, int* neighbo
 		strcat(str,"KNN_PLUS_");
 
 	strcat(str,"K=");
-	strcat(str, auxK); 
+	strcat(str, auxK);
 	strcat(str,".txt");
 
+	printf("olaa : %s \n",str);
 
 	f = fopen(str,"w");
 
@@ -284,7 +282,7 @@ void linearSearchNeighboors(int * k, int sampleClassified, float * distances, in
 	visits[sampleClassified] = -1;
 
 
-   
+
 	for(int j = 0; j< *k; j++){
 		min = 999999;
 		for(int i = 0 ; i <nrSamples; i++ ){
@@ -322,7 +320,7 @@ void linearSearchNeighboors(int * k, int sampleClassified, float * distances, in
 						check = 0;
 						break;
 					}
-					
+
 			   }
 		    }
 		}
@@ -330,7 +328,7 @@ void linearSearchNeighboors(int * k, int sampleClassified, float * distances, in
 
 
 
-	
+
 
 }
 
@@ -349,9 +347,9 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
 	sprintf(auxK, "%d", initialK);
 	char str[500];
-	
 
-	strcat(str,"Results/");
+
+	strcpy(str,"Results/");
 	strcat(str,auxFile);
 
 	if (algorithm == KNN)
@@ -360,7 +358,7 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 		strcat(str,"KNN_PLUS_");
 
 	strcat(str,"K=");
-	strcat(str, auxK); 
+	strcat(str, auxK);
 	strcat(str,".txt");
 
 
@@ -371,12 +369,12 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
     if(fpDataSet == NULL){
       printf("Invalid name of dataSet text file\n");
-      exit(0); 
+      exit(0);
     }
 
     char pal1[DIM_MAX];
 
-  
+
 
     //read the file in order to know the number of samples
     while (!feof (fpDataSet)) {
@@ -392,7 +390,7 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
     	float * sample = (float*)malloc((dataSetNum.nrFeatures+1)*sizeof(float));
 
     	for(int j = 0; j <= dataSetNum.nrFeatures; j++){
-        		if (!fscanf(fpDataSet, "%f", &sample[j])) 
+        		if (!fscanf(fpDataSet, "%f", &sample[j]))
                break;
         	}
 
@@ -419,7 +417,7 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
 
 
-   
+
 			for(int j = 0; j< *k; j++){
 				min = 999999;
 				for(int a = 0 ; a <dataSetNum.nrSamples; a++ ){
@@ -457,7 +455,7 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 							check = 0;
 							break;
 						}
-					
+
 			   		}
 		    	}
 			}
@@ -470,7 +468,7 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
 		for(int ij = 0; ij < *k; ij++)
 			classes[(int)dataSetNum.matrix[neighboors[ij]][dataSetNum.nrFeatures]]++;
-	
+
 
 
 		for(int j = 0; j < MAX_SIZE; j++){
@@ -486,14 +484,14 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
 		fprintf(f, "%d-nearest Neighboors of the sample with feature values: ", initialK);
 
-	
+
 		for(int j = 0; j <= dataSetNum.nrFeatures; j++){
 			fprintf(f,"   %f    ", sample[j]);
 	    }
 			fprintf(f,"   \n \n    ");
 
 		for(int i=0; i < *k; i++){
-			
+
 			fprintf(f,"%d. Sample nr: %d, with distance: %f \n", i+1,neighboors[i],distances[neighboors[i]]);
 			fprintf(f,"feature values: \n");
 			for(int j = 0; j <= dataSetNum.nrFeatures; j++){
@@ -534,7 +532,7 @@ void computeNeighboors(int sampleClassified, int typeOfDataSet, int * idxSort,in
 		nrFeatures = dataSetCat.nrFeatures;
 	}
 
-	
+
 
 		if(*k < log2(nrSamples)){
 			//printf("linear search \n \n");
@@ -543,8 +541,8 @@ void computeNeighboors(int sampleClassified, int typeOfDataSet, int * idxSort,in
 		else{
 			//printf("QUICKSORT \n\n");
 
-		
-			idxSort = (int*) malloc(nrSamples*sizeof(int)); 
+
+			idxSort = (int*) malloc(nrSamples*sizeof(int));
 
 			for(int i =0; i < nrSamples; i++)
 				idxSort[i] = i;
@@ -565,18 +563,18 @@ void computeNeighboors(int sampleClassified, int typeOfDataSet, int * idxSort,in
 								*k= *k+1;
 								neighboors[i-1] = idxSort[i];
 						}
-						else 
+						else
 							break;
-   		
+
 	    		   		i++;
-   
+
 			   }
-			}	
+			}
 
 
 		}
 
-		
+
 
 
 }
@@ -599,7 +597,7 @@ int computeClassCat(int *neighboors, int k){
 			classes[2]++;
 		else if(dataSetCat.matrix[neighboors[i]][dataSetCat.nrFeatures][0]=='v')
 			classes[3]++;
-		
+
 	}
 
 	for(int j = 0; j < 4; j++){
@@ -622,7 +620,7 @@ int computeClassNum(int *neighboors, int k,int sampleClassified){
 
 	for(int i = 0; i < k; i++)
 		classes[(int)dataSetNum.matrix[neighboors[i]][dataSetNum.nrFeatures]]++;
-	
+
 
 
 	for(int j = 0; j < MAX_SIZE; j++){
@@ -649,9 +647,9 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 
 	sprintf(auxK, "%d", initialK);
 	char str[500];
-	
 
-	strcat(str,"Results/");
+
+	strcpy(str,"Results/");
 	strcat(str,auxFile);
 
 	if (algorithm == KNN)
@@ -660,7 +658,7 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 		strcat(str,"KNN_PLUS_");
 
 	strcat(str,"K=");
-	strcat(str, auxK); 
+	strcat(str, auxK);
 	strcat(str,".txt");
 
 
@@ -669,26 +667,26 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 	f = fopen(str,"w");
 
 
-	
+
 
 
 	srand(time(NULL));   // Initialization, should only be called once.
-    
+
 
     for(int i = 0; i < dataSetNum.nrSamples/3; i++){
-	    int sampleClassified = rand()%(dataSetNum.nrSamples-1); 
+	    int sampleClassified = rand()%(dataSetNum.nrSamples-1);
 	    distances = computeDistances(sampleClassified, typeOfDataSet);
 	    computeNeighboors(sampleClassified, typeOfDataSet,idxSort,neighboors, distances,k, algorithm);
 	    int class;
 	    if(typeOfDataSet == NUMERICAL)
 	    	class = computeClassNum(neighboors,  *k, sampleClassified);
-	    else 
+	    else
 	    	class = computeClassCat(neighboors,*k);
 	    writeIt(f,*k,sampleClassified,distances, neighboors,typeOfDataSet,class);
 	    *k = initialK;
-    } 
+    }
 
-} 
+}
 
 void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distances, int * k, int algorithm){
 	FILE *f = NULL;
@@ -697,10 +695,10 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 
 	sprintf(auxK, "%d", initialK);
 	char str[500];
-	
 
 
-	strcat(str,"Results/");
+
+	strcpy(str,"Results/");
 	strcat(str,auxFile);
 
 	if (algorithm == KNN)
@@ -709,18 +707,16 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 		strcat(str,"KNN_PLUS_");
 
 	strcat(str,"K=");
-	strcat(str, auxK); 
+	strcat(str, auxK);
 	strcat(str,".txt");
 
 
-	printf("antes -> string é %s \n",str);
 	f = fopen(str,"w");
 
-	printf("a string é %s \n",str);
 
 
     struct timeval stop, start;
-   
+
 
 
     for(int i = 0; i < dataSetNum.nrSamples; i++){
@@ -730,20 +726,20 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 	    int class;
 	    if(typeOfDataSet == NUMERICAL)
 	    	class = computeClassNum(neighboors,  *k, sampleClassified);
-	    else 
+	    else
 	    	class = computeClassCat(neighboors,*k);
-	        
+
 	gettimeofday(&start, NULL);
-  
+
 	writeIt(f,*k,sampleClassified,distances, neighboors,typeOfDataSet,class);
 	gettimeofday(&stop, NULL);
-	
+
 	diffTime  =diffTime +   (stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec;
 
 	    *k = initialK;
-    } 
+    }
 
-} 
+}
 
 
 
@@ -755,28 +751,29 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 void KnnClassification(int typeOfDataSet,int classification,int sampleClassified, int normalization, int * k, int algorithm){
 
 	float * distances;
-	
+
 	if( typeOfDataSet == NUMERICAL){
 		distances = (float*)malloc(dataSetNum.nrSamples*sizeof(float));
 	}
 	else if( typeOfDataSet == CATEGORIC){
-		distances = (float*)malloc(dataSetCat.nrSamples*sizeof(float));	
+		distances = (float*)malloc(dataSetCat.nrSamples*sizeof(float));
 	}
 
-	
+
 	int * idxSort = NULL;
 	int  neighboors[MAX_KNN] = { 0 };
 
 	if(classification == ONE_SAMPLE){
 		distances = computeDistances(sampleClassified, typeOfDataSet);
-		
+
 		computeNeighboors(sampleClassified, typeOfDataSet,idxSort,neighboors, distances, k, algorithm);
 		int class;
 		if(typeOfDataSet == NUMERICAL)
 			class = computeClassNum(neighboors, *k,sampleClassified);
-		else 
+		else
 	    	class = computeClassCat(neighboors,*k);
-		writeOneOnFile(*k,sampleClassified,distances, neighboors, algorithm, typeOfDataSet,class);		
+
+		writeOneOnFile(*k,sampleClassified,distances, neighboors, algorithm, typeOfDataSet,class);
 
 
 	}
@@ -790,8 +787,8 @@ void KnnClassification(int typeOfDataSet,int classification,int sampleClassified
 
 	else if(classification == ADDITIONAL)
 		testingSetClassification(k,neighboors, algorithm);
-	
-	
 
-	
+
+
+
 }
