@@ -665,6 +665,7 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 
 
 
+
 	f = fopen(str,"w");
 
 
@@ -712,7 +713,10 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 	strcat(str,".txt");
 
 
+	printf("antes -> string é %s \n",str);
 	f = fopen(str,"w");
+
+	printf("a string é %s \n",str);
 
 
     struct timeval stop, start;
