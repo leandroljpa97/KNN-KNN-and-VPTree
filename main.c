@@ -45,6 +45,8 @@ int main(int argc, char const *argv[]) {
 
     int readSignal = readInputArguments(argc, argv,fileName, &algorithm,&normalization,&typeOfDataSet, &classification, &sampleClassified, &k);
 
+    strcpy(auxFile,fileName);
+
 
     if(k==-1)
         k = log2(dataSetNum.nrSamples);

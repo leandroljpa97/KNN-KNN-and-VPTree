@@ -11,6 +11,8 @@
 #include <ctype.h>
 #include <math.h>
 #include <time.h>
+#include <sys/time.h>
+
 
 
 
@@ -195,22 +197,23 @@ void writeOneOnFile(int k, int sampleClassified, float * distances, int* neighbo
 
 	char auxK[5];
 
-	sprintf(auxK, "%d", k);
+	sprintf(auxK, "%d", initialK);
 	char str[500];
 	
 
-	if (algorithm == KNN)
-		strcpy(str,"Results/KNN_");
-	else
-		strcpy(str,"Results/KNN_PLUS_");
+		strcat(str,"Results/");
+	strcat(str,auxFile);
 
-	if(typeOfDataSet == NUMERICAL)
-		strcat(str,"NUMERICAL_");
+	if (algorithm == KNN)
+		strcat(str,"KNN_");
 	else
-		strcat(str,"CATEGORIC_");
+		strcat(str,"KNN_PLUS_");
+
 	strcat(str,"K=");
 	strcat(str, auxK); 
 	strcat(str,".txt");
+
+
 	f = fopen(str,"w");
 
 	writeIt(f,k,sampleClassified,distances, neighboors,typeOfDataSet,class);
@@ -344,20 +347,23 @@ void testingSetClassification(int *k, int * neighboors, int algorithm){
 
 	char auxK[5];
 
-	sprintf(auxK, "%d", *k);
+	sprintf(auxK, "%d", initialK);
 	char str[500];
 	
 
-	if (algorithm == KNN)
-		strcpy(str,"Results/KNN_");
-	else
-		strcpy(str,"Results/KNN_PLUS_");
+	strcat(str,"Results/");
+	strcat(str,auxFile);
 
-	strcat(str,"NUMERICAL_");
-	
+	if (algorithm == KNN)
+		strcat(str,"KNN_");
+	else
+		strcat(str,"KNN_PLUS_");
+
 	strcat(str,"K=");
 	strcat(str, auxK); 
 	strcat(str,".txt");
+
+
 	f = fopen(str,"w");
 
 
@@ -641,23 +647,24 @@ void computeRandom(int typeOfDataSet, int * idxSort,int *neighboors, float* dist
 
 	char auxK[5];
 
-	sprintf(auxK, "%d", *k);
+	sprintf(auxK, "%d", initialK);
 	char str[500];
 	
 
+	strcat(str,"Results/");
+	strcat(str,auxFile);
 
 	if (algorithm == KNN)
-		strcpy(str,"Results/KNN_");
+		strcat(str,"KNN_");
 	else
-		strcpy(str,"Results/KNN_PLUS_");
+		strcat(str,"KNN_PLUS_");
 
-	if(typeOfDataSet == NUMERICAL)
-		strcat(str,"NUMERICAL_");
-	else
-		strcat(str,"CATEGORIC_");
 	strcat(str,"K=");
 	strcat(str, auxK); 
 	strcat(str,".txt");
+
+
+
 	f = fopen(str,"w");
 
 
@@ -687,22 +694,24 @@ void leaveOneOut(int typeOfDataSet, int * idxSort,int *neighboors, float* distan
 
 	char auxK[5];
 
-	sprintf(auxK, "%d", *k);
+	sprintf(auxK, "%d", initialK);
 	char str[500];
 	
 
-	if (algorithm == KNN)
-		strcpy(str,"Results/KNN_");
-	else
-		strcpy(str,"Results/KNN_PLUS_");
 
-	if(typeOfDataSet == NUMERICAL)
-		strcat(str,"NUMERICAL_");
+	strcat(str,"Results/");
+	strcat(str,auxFile);
+
+	if (algorithm == KNN)
+		strcat(str,"KNN_");
 	else
-		strcat(str,"CATEGORIC_");
+		strcat(str,"KNN_PLUS_");
+
 	strcat(str,"K=");
 	strcat(str, auxK); 
 	strcat(str,".txt");
+
+
 	f = fopen(str,"w");
 
 

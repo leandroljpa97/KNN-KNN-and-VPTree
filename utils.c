@@ -20,6 +20,7 @@ int negativeClassified = 0;
 unsigned long diffTime;
 
 char testingSet[100];
+char auxFile[100];
 
 
 

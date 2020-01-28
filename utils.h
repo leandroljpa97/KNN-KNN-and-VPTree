@@ -54,6 +54,8 @@ extern int negativeClassified;
 extern 	char testingSet[100];
 extern unsigned long diffTime;
 
+extern char auxFile[100];
+
 
 
 int readInputArguments(int _argc, const char* argv[], char _fileName[], int * _algorithm, int * _normalization,int * _typeOfDataSet, int *_classification, int *_sampleClassified, int * _k);
