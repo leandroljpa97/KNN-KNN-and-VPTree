@@ -4,5 +4,7 @@ KNN, KNN plus applied to numerical, categorical, and numerical + categorical dat
 
 As one of the goals of the project was to be as efficient as possible, Quicksort algorithm is used (IN SOME CASES, DEPENDING ON THE VALUE 'K' AND THE SIZE OF THE DATASET) to sort the array of distances, to return then the K nearest neighboors.
 Different configurations are allowed (with and without normalization data, for instance).
-Report:
+
+# Report
+Report: dataMiningReport.pdf
 grade: 20/20
