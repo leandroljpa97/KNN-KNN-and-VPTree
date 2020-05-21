@@ -7,4 +7,5 @@ Different configurations are allowed (with and without normalization data, for i
 
 # Report
 Report: dataMiningReport.pdf
+
 grade: 20/20
